@@ -53,9 +53,9 @@ The Command Line: <br>
         <li>cd: changes to a new directory</li>
         <li>mkdir: makes a directory</li>
         <li>touch file.txt: creates a new file</li>
-        <li>vim file.txt: edits a file
+        <li>vim file.txt: edits a file</li>
             <li>i: inserts</li>
-            <li>:wq exits</li> </li>
+            <li>:wq exits</li>
         <li>clear: clear the terminal screen</li>
         <li>python file.py: runs the python file</li>
     Of these lines of code, I believe the most important thing I learned was how to edit a file with the vim editor. While I have expirence with the command line, that is not something I have much practice with.
@@ -63,16 +63,16 @@ The Command Line: <br>
     Quiz Question: How can you autocomplete commands once you start typing?
 
 Git & Github Desktop: <br>
-    To complete this tutorial, I reviewed installation, workflow and basic commands of both git and github. The following phrases are important commands that I believe I will rely on moving forward:
-        - git commit -m "message here": gets files ready
-        - git add . : picks the files, the . prepares all changed files
-        - git push: pushes the files from the computer onto github
-        - git pull: pulls the files from github onto the computer
-        - git status: see the status of the files on the computer in relation to github
-        - git merge: merges changes from the a branch into yours
-        - git checkout file: checout a branch to inspect changes
-        - forking: create a copy of an existing repo
-        - git diff: quickly compares two branches to see thier differences
+    To complete this tutorial, I reviewed installation, workflow and basic commands of both git and github. The following phrases are important commands that I believe I will rely on moving forward: <br>
+        <li>git commit -m "message here": gets files ready</li>
+        <li>git add . : picks the files, the . prepares all changed files</li>
+        <li>git push: pushes the files from the computer onto github</li>
+        <li>git pull: pulls the files from github onto the computer</li>
+        <li>git status: see the status of the files on the computer in relation to github</li>
+        <li>git merge: merges changes from the a branch into yours</li>
+        <li>git checkout file: checout a branch to inspect changes</li>
+        <li>forking: create a copy of an existing repo</li>
+        <li>git diff: quickly compares two branches to see thier differences</li>
     Of these lines of code, I was unaware of the git diff line and think this is the most importnat thing I have learned in this tutorial.
 
     Quiz Question: What are the benefits to using github for a project?
