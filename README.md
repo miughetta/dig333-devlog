@@ -51,7 +51,9 @@ The Command Line: <br>
             <li>:wq exits</li>
         <li>clear: clear the terminal screen</li>
         <li>python file.py: runs the python file</li>
-    Of these lines of code, I believe the most important thing I learned was how to edit a file with the vim editor. While I have expirence with the command line, that is not something I have much practice with.
+    Of these lines of code, I believe the most important thing I learned was how to edit a file with the vim editor. While I have expirence with the command line, that is not something I have much practice with. My vim work looked like such: <br>
+    <img width="763" alt="Screen Shot 2022-01-31 at 10 21 33 PM" src="https://user-images.githubusercontent.com/59931466/151910324-4facde02-b276-4dba-9a09-dc4021cd5242.png">
+
 
     Quiz Question: How can you autocomplete commands once you start typing?
 
@@ -66,6 +68,7 @@ Git & Github Desktop: <br>
         <li>git checkout file: checout a branch to inspect changes</li>
         <li>forking: create a copy of an existing repo</li>
         <li>git diff: quickly compares two branches to see thier differences</li>
-    Of these lines of code, I was unaware of the git diff line and think this is the most importnat thing I have learned in this tutorial.
+    Of these lines of code, I was unaware of the git diff line and think this is the most importnat thing I have learned in this tutorial. It was also important to see that the workflow can be vizualized as such: <br>
+    <img width="512" alt="Screen Shot 2022-01-31 at 10 13 10 PM" src="https://user-images.githubusercontent.com/59931466/151910284-048422a5-bac7-4379-a435-e187c739f246.png">
 
     Quiz Question: What are the benefits to using github for a project?
