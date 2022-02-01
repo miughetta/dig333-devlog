@@ -46,8 +46,8 @@ The TEDxBigApple Talk titled "Physicality and Conviviality" by Tom Igoe dicusses
 
 The Command Line: <br>
     To complete this tutorial, I utilzed a variety of code on the command line in my Mac's terminal. The following phrases are important commands that I believe I will rely on moving forward:
-        <ls> whoami: displays the username
-        <ls> pwd: displays the working directory
+        <li>whoami: displays the username</li>
+         pwd: displays the working directory
         - ls: displays the contents of the working directory
         - ls -a: displays all files including those with ., which are hidden
         - cd: changes to a new directory
