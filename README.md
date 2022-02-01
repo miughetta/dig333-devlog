@@ -15,7 +15,7 @@ BELOW IS A WEEKLY TEMPLATE. COPY/PASTE IT TO ADD A WEEK. SEE ASSIGNMENTS FOR DET
 https://docs.google.com/document/d/1PAoPz-3vDPFWS5q9RHRb-dC7T4earpFXJW8w6v9wfZ0/edit
 -->
 
-## Week X
+## Template
 
 ### Context
 
@@ -44,15 +44,10 @@ The TEDxBigApple Talk titled "Physicality and Conviviality" by Tom Igoe dicusses
 
 ### Experiments
 
-1. Name of the experiment
-    1. Text, photos, etc.
-    1. Describe the most important thing you learned (to share in class)
-    1. Write a quiz question (which we will discuss in class)
-
-The Command Line:
+The Command Line: <br>
     To complete this tutorial, I utilzed a variety of code on the command line in my Mac's terminal. The following phrases are important commands that I believe I will rely on moving forward:
-        - whoami: displays the username
-        - pwd: displays the working directory
+        <ls> whoami: displays the username
+        <ls> pwd: displays the working directory
         - ls: displays the contents of the working directory
         - ls -a: displays all files including those with ., which are hidden
         - cd: changes to a new directory
@@ -67,8 +62,7 @@ The Command Line:
 
     Quiz Question: How can you autocomplete commands once you start typing?
 
-
-Git & Github Desktop: 
+Git & Github Desktop: <br>
     To complete this tutorial, I reviewed installation, workflow and basic commands of both git and github. The following phrases are important commands that I believe I will rely on moving forward:
         - git commit -m "message here": gets files ready
         - git add . : picks the files, the . prepares all changed files
