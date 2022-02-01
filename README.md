@@ -47,17 +47,17 @@ The TEDxBigApple Talk titled "Physicality and Conviviality" by Tom Igoe dicusses
 The Command Line: <br>
     To complete this tutorial, I utilzed a variety of code on the command line in my Mac's terminal. The following phrases are important commands that I believe I will rely on moving forward:
         <li>whoami: displays the username</li>
-         pwd: displays the working directory
-        - ls: displays the contents of the working directory
-        - ls -a: displays all files including those with ., which are hidden
-        - cd: changes to a new directory
-        - mkdir: makes a directory
-        - touch file.txt: creates a new file
-        - vim file.txt: edits a file
-            - i: inserts
-            - :wq exits
-        - clear: clear the terminal screen
-        - python file.py: runs the python file
+        <li>pwd: displays the working directory</li>
+        <li>ls: displays the contents of the working directory</li>
+        <li>ls -a: displays all files including those with ., which are hidden</li>
+        <li>cd: changes to a new directory</li>
+        <li>mkdir: makes a directory</li>
+        <li>touch file.txt: creates a new file</li>
+        <li>vim file.txt: edits a file
+            <li>i: inserts</li>
+            <li>:wq exits</li> </li>
+        <li>clear: clear the terminal screen</li>
+        <li>python file.py: runs the python file</li>
     Of these lines of code, I believe the most important thing I learned was how to edit a file with the vim editor. While I have expirence with the command line, that is not something I have much practice with.
 
     Quiz Question: How can you autocomplete commands once you start typing?
