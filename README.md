@@ -72,3 +72,27 @@ Git & Github Desktop: <br>
     <img width="512" alt="Screen Shot 2022-01-31 at 10 13 10 PM" src="https://user-images.githubusercontent.com/59931466/151910284-048422a5-bac7-4379-a435-e187c739f246.png">
 
     Quiz Question: What are the benefits to using github for a project?
+
+## Week 2
+
+### Context
+
+The Internet of Things: Roadmap to a Connected World: <br>
+This website article By Internet of Shit dicusses the concept of connected devices. The Internet of Things (IoT) is a network of objects embedded with the ability to exchange and collect data within a system. While this allows for the advancement of technology in theory, issues of security, privacy, and authenticity when there is no agreed upon regulation for building connected system. This concept was summarized in the article as follows: "to leverage the power of the IoT responsibly and profitably, you need to develop and implement your own IoT technologies, solutions, and applications." This makes me think of the lack of regulation on the internet as a whole. How can regulation within deviced be achieved? Are other aspects of the internet/technology needing regulation?
+
+
+The Internet of Things has a dirty little secret: it's not really yours <br>
+This website article by Sanjay Sarma dicusses the idea that everything is connected on the internet wheather it improves the technology or not. Devices do not always need to be connected but the idea that such cinnection makes them better drives this. This makes internet reach more "intimate" parts of our lives leaving questions about what obligation the companies have to creating devices that will achieve longevity in these spaces? In what ways will these devices try to monetize these intimate aspects of our lives? This makes me think of the monetization of ads especially on google, where our information is stored aggresively to market us as consumers. The reading also specifically askes: "when everything’s connected and nobody’s responsible for the consequences, what happens?" 
+
+
+
+### Experiments
+1. Taste the power: This experiment has the user put their tongue to the end of a nine volt battery to create a circuit with the body. Having a wet tongue lowers the resistance in the circuit and allows more elctric current to flow causing a greater tingle in the tongue than when it is dry. This difference can be measured with a meter. This concept of resistance is the most iumportant thing I learned through this experiment. Quiz Question: Does water lower or increase resistance? 
+
+2. Abuse a battery: This experiment has the user short circuit a battery by connecting the ends of the battery using wires. This is becasue the fuse melted to protect the rest of the circuit from how much current was flowing through. The connection between voltage (volts), resistance (ohms), and amerage (amps) was the most important thing I learned. It can be described through an analogy to water flowing out of a hole, where voltage is the pressure, amerage is the rate of flow, and resistance is the diameter of the hole. The flow of current can be like water from a faucet in a direct current or the flow can b a pulse in an alternating current. Quiz Question: Does a battery have direct or alternating current?
+
+3. Your First Circuit: This experiment has the user decode/check resistors, use them to build a circuit, and light an LED. This allows for the user to light up an LED at varying brightness. The most improtant thing I learned in this experiment was what the different colored lines on resistors meant. Quiz Question: Why might we use a resistor in a circuit? 
+
+4. Variable Resistance: This experiment has the user control resistance in a circuit using potentiometer. This device "protects" the LED from a source such as a 9 volt battery so that it is not destroyed. Notably, it has no polarity unlike an LED, and thus does not having a right way around to be connected. This expirement allowed the user to check voltage across parts of a circuit, how to measure current in a circuit, and how to create circuits in both series and parallel using LEDs. The most improtant thing I learned in this experiment was Ohm's Law, which tells us how much resistance we need in the circuit: voltage = current * resistance. This also helped us understand what happens to current and voltaghe throughout the circuit. Quiz Question: Why might we use Ohm's law in this experiment?
+
+5. Collin's Lab: This experiment has the user follow four videos. Multimeters (7:22) discusses how to measure resistance, voltage, and current; LEDs (5:29) dicusses who invented LEDs, how to use them, and how to make your own; Resistors (5:08) demonstrates the resistor in circuitry; Ohm's Law (7:09) introduces the equation voltage = current * resistance. The most improtant thing I learned in this experiment was how to put all these components together. Quiz Question: What equation connects voltage, current, and resistance?
