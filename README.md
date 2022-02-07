@@ -86,7 +86,7 @@ This website article by Sanjay Sarma dicusses the idea that everything is connec
 
 
 ### Experiments
-## Platt
+#### Platt
 1. Taste the power: This experiment has the user put their tongue to the end of a nine volt battery to create a circuit with the body. Having a wet tongue lowers the resistance in the circuit and allows more elctric current to flow causing a greater tingle in the tongue than when it is dry. This difference can be measured with a meter. This concept of resistance is the most iumportant thing I learned through this experiment. Quiz Question: Does water lower or increase resistance? 
 
 2. Abuse a battery: This experiment has the user short circuit a battery by connecting the ends of the battery using wires. This is becasue the fuse melted to protect the rest of the circuit from how much current was flowing through. The connection between voltage (volts), resistance (ohms), and amerage (amps) was the most important thing I learned. It can be described through an analogy to water flowing out of a hole, where voltage is the pressure, amerage is the rate of flow, and resistance is the diameter of the hole. The flow of current can be like water from a faucet in a direct current or the flow can b a pulse in an alternating current. Quiz Question: Does a battery have direct or alternating current?
@@ -97,7 +97,7 @@ This website article by Sanjay Sarma dicusses the idea that everything is connec
 
 5. Collin's Lab: This experiment has the user follow four videos. Multimeters (7:22) discusses how to measure resistance, voltage, and current; LEDs (5:29) dicusses who invented LEDs, how to use them, and how to make your own; Resistors (5:08) demonstrates the resistor in circuitry; Ohm's Law (7:09) introduces the equation voltage = current * resistance. The most improtant thing I learned in this experiment was how to put all these components together. Quiz Question: What equation connects voltage, current, and resistance?
 
-## Monk
+#### Monk
 
 Monk - Ch1 Setup and Management (1-25) <br>
 This chapeter introduces us to the Raspberry Pi. Sections show us how to connect to the system, connect to a power source, select an operating system, and connect the Rasperberry Pi to other components such as bluetooth and monitors. Overall, the most improtant thing I learned was how to get started with teh Rasperberry Pi, which is a new system to me. Quiz Question: What is a Raspberry Pi?
