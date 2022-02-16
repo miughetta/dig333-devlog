@@ -95,9 +95,61 @@ This website article by Sanjay Sarma dicusses the idea that everything is connec
 
 4. Variable Resistance: This experiment has the user control resistance in a circuit using potentiometer. This device "protects" the LED from a source such as a 9 volt battery so that it is not destroyed. Notably, it has no polarity unlike an LED, and thus does not having a right way around to be connected. This expirement allowed the user to check voltage across parts of a circuit, how to measure current in a circuit, and how to create circuits in both series and parallel using LEDs. The most improtant thing I learned in this experiment was Ohm's Law, which tells us how much resistance we need in the circuit: voltage = current * resistance. We were able to calculated the resistance for a 2 volt LED with 0.02 amps as being 125 ohms using Ohm’s law. This also helped us understand what happens to current and voltaghe throughout the circuit. Quiz Question: Why might we use Ohm's law in this experiment?
 
-5. Collin's Lab: This experiment has the user follow four videos. Multimeters (7:22) discusses how to measure resistance, voltage, and current; LEDs (5:29) dicusses who invented LEDs, how to use them, and how to make your own; Resistors (5:08) demonstrates the resistor in circuitry; Ohm's Law (7:09) introduces the equation voltage = current * resistance. The most improtant thing I learned in this experiment was how to put all these components together. Quiz Question: What equation connects voltage, current, and resistance?
+5. Let's Make a Battery: Read this section but don't do the lemon experiment. The relationship between currents, volts, and watts can be described through the equation voltage = current * resistance. When batteries are in series, voltage increases, but when the batteries are in parallel that is not the case. When batteries are in parallel the total current capacity increases by decreasing the total resistance. The differences between series and parallel are the most important thing I learned in this section. Quiz Question: What is the equation that describes the relationship between voltage, current, and resistance?
 
 #### Monk
 
 Monk - Ch1 Setup and Management (1-25) <br>
 This chapeter introduces us to the Raspberry Pi. Sections show us how to connect to the system, connect to a power source, select an operating system, and connect the Rasperberry Pi to other components such as bluetooth and monitors. Overall, the most improtant thing I learned was how to get started with teh Rasperberry Pi, which is a new system to me. Quiz Question: What is a Raspberry Pi?
+
+
+## Week 3
+
+### Context
+THE CRITICAL ENGINEERING MANIFESTO: <br>
+This document dicusses ways to be a critical engineer through ten main points. These suggestions are meant to guide people while working on engineering projects such as code in order to make an ethical product. This bring up the idea that engineers are responsible to provide an ethical product for users. This is summarized in the first statement (statement 0): "it is the work of the Critical Engineer to study and exploit this language, exposing its influence." This raises questions about to what extent engineers are responsible for the way their products affect users?
+
+Artist Profile: Julian Oliver: <br>
+This article gives a profile on Julian Oliver who published the Critical Manifesto. This interview asks questions about this manifesto and engineering projects that he had been a part of. In this way, Jul;ian Oliver dicusses the ways in which he has been woring creatively with technology throughou this career. This sentiment can be summerized through the quote: "I choose whatever material I need to manifest the work." I like this idea as often we approach a problem and then choose the methods, a direction and then a programming language, but by choosing materials first we can approach solutions in a different way. This makes me wonder what materials we might not be considering in the fields of computer science or digital studies?
+
+Adam Curtis All Watched Over by Machines of Loving Grace Part 1 (2011): <br>
+This video is one in a series of films that discusses the idea of earth being colonized by the machines. This is particularly chilling as we notice the ways technology surrounds us every day. This installment takes heavy inspiration from Ayn Rand's philosophical views before tying in political influence. The ideology of this documentary is summarized as follows: "The original promise of the Californian Ideology was that the computers would liberate us from all the old forms of political control and we would become Randian heroes in control of our own destiny. Instead, today we feel the opposite, that we are helpless components in a global system, a system that is controlled by a rigid logic that we are powerless to challenge or to change." This connects to the idea of grey goo, the apocalyptic scenario of nanotechnology self-replicating until they destroy the biosphere. This makes me wonder what other ways, and possibly more realistic ways, technology could "rebel" against humanity?
+
+
+### Experiments
+#### Monk
+Codecademy Python: 2-1 Strings, 2-2 Date Time <br>
+
+Recipes and outcomes: <br>
+    2.0. Introduction <br>
+    2.1. Connecting to a Wired Network <br>
+    &nbsp; See also: Adafruit RPi 3 - Network Setup <br>
+    &nbsp;  Connect to a Raspberry Pi via SSH <br>
+    &nbsp; &nbsp;   Use on of the lab demos: ssh pi@demopi1.local <br>
+    2.2. Finding Your IP Address <br>
+    &nbsp;  Demonstrate two different methods to find your IP address <br>
+    &nbsp; &nbsp;   sudo ifconfig <br>
+    2.3. Setting a Static IP Address <br>
+    &nbsp;  Just skim this section. <br>
+    2.4. Setting the Network Name of a Raspberry Pi <br>
+    &nbsp;  Explain how to change the hostname of a RPi:  <br>
+    &nbsp; &nbsp; This can be done through the raspberry pi configuration tool or the comand line <br>
+    2.5. Setting Up a Wireless Connection <br>
+    &nbsp;  Explain how to set up wifi on a RPi: This can be done using the Pixel Desktop or the through the command line. <br>
+    2.6. Connecting with a Console Lead <br>
+    &nbsp;  See also: Adafruit RPi 5 - Login to a Pi via a Serial Connection <br>
+    2.7. Controlling the Pi Remotely with SSH <br>
+    &nbsp;  Demonstrate how to connect and disconnect to a RPi via SSH:  <br>
+    &nbsp; &nbsp;   sudo raspi-config <br>
+    &nbsp; &nbsp;   ssh IP_ADDRESS_HERE -l pi <br>
+    &nbsp;  Demonstrate how to perform basic filesystem task over SSH <br>
+    &nbsp; &nbsp;   Conduct work in the terminal as you normally wouldv
+    &nbsp;  See also: Adafruit RPi 6 - Using SSH  <br>
+        
+Feel free to skim the follow sections but note we will use SFTP and / or Git to move files to/from our RPi: <br>
+<del>2.8. Controlling the Pi Remotely with VNC</del>  <br>
+<del>2.9. Controlling the Pi Remotely Using RDP</del>  <br>
+<del>2.10. File Sharing on a Mac Network</del>  <br>
+<del>2.11. Using a Raspberry Pi for Network Attached Storage</del>  <br>
+<del>2.12. Network Printing</del>  <br>s
+
