@@ -261,13 +261,13 @@ Recipes and outcomes:<br>
 5.5. Assigning Names to Values (Variables): i.e. a = 1<br>
 5.6. Displaying Output: i.e. print(a) <br>
 5.7. Reading User Input: <br>
-<img width="258" alt="Screen Shot 2022-02-20 at 5 37 10 PM" src="https://user-images.githubusercontent.com/59931466/154867598-0fd80d77-8c4c-4874-86c3-563a2964dedc.png">
+<img width="258" alt="Screen Shot 2022-02-20 at 5 37 10 PM" src="https://user-images.githubusercontent.com/59931466/154867598-0fd80d77-8c4c-4874-86c3-563a2964dedc.png"><br>
 5.8. Arithmetic: <br>
-<img width="179" alt="Screen Shot 2022-02-20 at 5 37 40 PM" src="https://user-images.githubusercontent.com/59931466/154867606-f17a73a5-b585-4bbf-aabe-54502ba816e9.png">
+<img width="179" alt="Screen Shot 2022-02-20 at 5 37 40 PM" src="https://user-images.githubusercontent.com/59931466/154867606-f17a73a5-b585-4bbf-aabe-54502ba816e9.png"><br>
 5.9. Creating Strings: <br>
-<img width="129" alt="Screen Shot 2022-02-20 at 5 38 07 PM" src="https://user-images.githubusercontent.com/59931466/154867619-320814c5-fd0e-4f0f-84c3-ee850ecd1846.png">
+<img width="129" alt="Screen Shot 2022-02-20 at 5 38 07 PM" src="https://user-images.githubusercontent.com/59931466/154867619-320814c5-fd0e-4f0f-84c3-ee850ecd1846.png"><br>
 5.10. Concatenating (Joining) Strings: <br>
-<img width="159" alt="Screen Shot 2022-02-20 at 5 39 06 PM" src="https://user-images.githubusercontent.com/59931466/154867627-10342fd0-531b-4632-8b96-a52667785ae0.png">
+<img width="159" alt="Screen Shot 2022-02-20 at 5 39 06 PM" src="https://user-images.githubusercontent.com/59931466/154867627-10342fd0-531b-4632-8b96-a52667785ae0.png"><br>
 5.11. Converting Numbers into Strings<br>
 5.12. Converting Strings into Numbers<br>
 5.13. Finding the Length of a String<br>
