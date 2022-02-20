@@ -268,17 +268,29 @@ Recipes and outcomes:<br>
 <img width="129" alt="Screen Shot 2022-02-20 at 5 38 07 PM" src="https://user-images.githubusercontent.com/59931466/154867619-320814c5-fd0e-4f0f-84c3-ee850ecd1846.png"><br>
 5.10. Concatenating (Joining) Strings: <br>
 <img width="159" alt="Screen Shot 2022-02-20 at 5 39 06 PM" src="https://user-images.githubusercontent.com/59931466/154867627-10342fd0-531b-4632-8b96-a52667785ae0.png"><br>
-5.11. Converting Numbers into Strings<br>
-5.12. Converting Strings into Numbers<br>
-5.13. Finding the Length of a String<br>
-5.14. Finding the Position of One String Within Another<br>
-5.15. Extracting Part of a String<br>
-5.16. Replacing One String of Characters with Another Within a String<br>
-5.17. Converting a String to Uppercase or Lowercase<br>
-5.18. Running Commands Conditionally<br>
-5.19. Comparing Values<br>
-5.20. Logical Operators<br>
-5.21. Repeating Instructions an Exact Number of Times<br>
-5.22. Repeating Instructions Until Some Condition Changes<br>
-5.23. Breaking Out of a Loop<br>
-5.24. Defining a Function in Python<br>
+5.11. Converting Numbers into Strings: i.e. str(123)<br>
+5.12. Converting Strings into Numbers: i.e. int("-123") <br>
+5.13. Finding the Length of a String: i.e. len("abcdef") <br>
+5.14. Finding the Position of One String Within Another: i.e. string.find("string_to_find")<br>
+5.15. Extracting Part of a String: i.e. string[start:stop]<br>
+5.16. Replacing One String of Characters with Another Within a String: i.e. string.replace("old_word", "new_word") <br>
+5.17. Converting a String to Uppercase or Lowercase: i.e. string.upper() or string.lower()  <br>
+5.18. Running Commands Conditionally: python if command<br>
+
+
+5.19. Comparing Values: <br>
+
+
+5.20. Logical Operators: <br>
+
+
+5.21. Repeating Instructions an Exact Number of Times: <br>
+
+
+5.22. Repeating Instructions Until Some Condition Changes: <br>
+
+
+5.23. Breaking Out of a Loop: <br>
+
+
+5.24. Defining a Function in Python: <br>
