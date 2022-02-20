@@ -180,72 +180,72 @@ Codecademy Python: 3-1 Conditionals, 3-2 PygLatin
 
 Recipes and outcomes:
 3.0. Introduction
-    &nbsp; Much of 3.1-3.4 is covered in learn-computing/slides/command-line.html 
+    &nbsp;Much of 3.1-3.4 is covered in learn-computing/slides/command-line.html 
 3.1. Browsing Files Graphically
-    &nbsp; Demonstrate how to use the RPi Desktop: accomplished by connecting the raspberry pi to cyberduck
+    &nbsp;Demonstrate how to use the RPi Desktop: accomplished by connecting the raspberry pi to cyberduck
 <br><img width="862" alt="Screen Shot 2022-02-20 at 2 45 50 PM" src="https://user-images.githubusercontent.com/59931466/154865534-34f73d9c-5d3e-4276-9590-5cbf2bfd1871.png"><br>
 3.2. Copying Files onto a USB Flash Drive
-    &nbsp; Use a USB flash drive with an RPi
+    &nbsp;Use a USB flash drive with an RPi
 
 3.3. Starting a Terminal Session
-    &nbsp; Open the Terminal application on the RPi Desktop
+    &nbsp;Open the Terminal application on the RPi Desktop
 3.4. Navigating the Filesystem Using a Terminal
-    &nbsp; Explain essential UNIX CLI concepts: prompt, path, root, home, ~ (tilde) 
-    &nbsp; &nbsp; A prompt is the phrase that prompts the user to type on the command line: pi@mimipi ~ $. The path is where you are within the file system and the root is the begining of that file system. The home is the parent directory. The tilde is a shorthand for the home.
-    &nbsp; Demonstrate basic UNIX filesystem command(s): cd, ls, pwd, man
+    &nbsp;Explain essential UNIX CLI concepts: prompt, path, root, home, ~ (tilde) 
+    &nbsp;&nbsp; A prompt is the phrase that prompts the user to type on the command line: pi@mimipi ~ $. The path is where you are within the file system and the root is the begining of that file system. The home is the parent directory. The tilde is a shorthand for the home.
+    &nbsp;Demonstrate basic UNIX filesystem command(s): cd, ls, pwd, man
 <br><img width="421" alt="Screen Shot 2022-02-20 at 2 52 21 PM" src="https://user-images.githubusercontent.com/59931466/154865600-7f90a930-0ecb-4524-bad8-46e5d915cf52.png"><br>
-    &nbsp; Demonstrate intermediate shell usage: tab, * (wildcards), listing hidden files
+    &nbsp;Demonstrate intermediate shell usage: tab, * (wildcards), listing hidden files
 <br><img width="539" alt="Screen Shot 2022-02-20 at 2 53 42 PM" src="https://user-images.githubusercontent.com/59931466/154865608-8c5211e0-8983-4ccb-a124-79f7520a60a0.png"><br>
-    &nbsp; Also see: learn-computing/slides/files-folders.html#9 
+    &nbsp;Also see: learn-computing/slides/files-folders.html#9 
 3.5. Copying a File or Folder
-    &nbsp; Demonstrate command(s): cp 
+    &nbsp;Demonstrate command(s): cp 
 <br><img width="344" alt="Screen Shot 2022-02-20 at 3 03 36 PM" src="https://user-images.githubusercontent.com/59931466/154865612-2976591c-3e97-4a35-8aa1-dfb91af4d457.png"><br>
 3.6. Renaming a File or Folder
-    &nbsp; Demonstrate command(s): mv 
+    &nbsp;Demonstrate command(s): mv 
 <br><img width="383" alt="Screen Shot 2022-02-20 at 3 04 03 PM" src="https://user-images.githubusercontent.com/59931466/154865620-47c7a046-8a42-4f77-85f0-775ecb4e8208.png"><br>
 3.7. Editing a File
-    &nbsp; Demonstrate how to use nano text editor to open, edit, save, close a file
+    &nbsp;Demonstrate how to use nano text editor to open, edit, save, close a file
 <br><img width="564" alt="Screen Shot 2022-02-20 at 3 05 42 PM" src="https://user-images.githubusercontent.com/59931466/154865623-32e9d8bf-6a32-41b2-9b25-498bb42e6264.png"><br>
 3.8. Viewing the Contents of a File
-    &nbsp; Demonstrate command(s): cat, more
+    &nbsp;Demonstrate command(s): cat, more
 <br><img width="358" alt="Screen Shot 2022-02-20 at 3 06 22 PM" src="https://user-images.githubusercontent.com/59931466/154865639-f837a62f-ee76-4740-a5c7-497b8b2770ac.png"><br>
 3.9. Creating a File Without Using an Editor
-    &nbsp; Demonstrate how to use echo with the ">" character to export a string to a file
+    &nbsp;Demonstrate how to use echo with the ">" character to export a string to a file
 <br><img width="406" alt="Screen Shot 2022-02-20 at 3 07 00 PM" src="https://user-images.githubusercontent.com/59931466/154865647-5facf568-cf39-41bb-9dd8-d43c4387b8d8.png"><br>
 3.10. Creating a Directory
-    &nbsp; Demonstrate command(s): mkdir
+    &nbsp;Demonstrate command(s): mkdir
 <br><img width="382" alt="Screen Shot 2022-02-20 at 4 11 23 PM" src="https://user-images.githubusercontent.com/59931466/154865655-4f7bd37b-7e1e-4206-b050-8f9e20823401.png"><br>
 3.11. Deleting a File or Directory
-    &nbsp; ⚠️ Be careful when removing files and directories!
-    &nbsp; Demonstrate command(s): rm
+    &nbsp;⚠️ Be careful when removing files and directories!
+    &nbsp;Demonstrate command(s): rm
 <br><img width="355" alt="Screen Shot 2022-02-20 at 4 11 44 PM" src="https://user-images.githubusercontent.com/59931466/154865664-9fc98a50-26d4-4a29-bc78-31f083cde680.png"><br>
 3.12. Performing Tasks with Superuser Privileges
-    &nbsp; Demonstrate how to reboot the RPi from the CLI: sudo shutdown -r now
+    &nbsp;Demonstrate how to reboot the RPi from the CLI: sudo shutdown -r now
 3.13. Understanding File Permissions
-    &nbsp; Demonstrate how to view permissions for files in a directory
+    &nbsp;Demonstrate how to view permissions for files in a directory
 <br><img width="352" alt="Screen Shot 2022-02-20 at 4 14 07 PM" src="https://user-images.githubusercontent.com/59931466/154865676-f54b958f-bf0d-4b74-b600-6e2507ae0ee2.png"><br>
-    &nbsp; Explain the three types of owners, and the three types of permissions they might have for each file.: the three premissions are r, w, and x for read, write, and executable permissions respetively. Permission strings are split into the three types of owners: first the person the document belongs to, second the group the document belongs to, and third everyone. 
-    &nbsp; Also see: learn-computing/slides/files-folders.html#6 
+    &nbsp;Explain the three types of owners, and the three types of permissions they might have for each file.: the three premissions are r, w, and x for read, write, and executable permissions respetively. Permission strings are split into the three types of owners: first the person the document belongs to, second the group the document belongs to, and third everyone. 
+    &nbsp;Also see: learn-computing/slides/files-folders.html#6 
 3.14. Changing File Permissions
-    &nbsp; Explain why you might use chmod: chmod changes the file premissions 
+    &nbsp;Explain why you might use chmod: chmod changes the file premissions 
 3.16. Making a Screen Capture
-    &nbsp; Recall which command to use for making a screenshot: scrot (-d time for delay, -s to select an area for capture)
+    &nbsp;Recall which command to use for making a screenshot: scrot (-d time for delay, -s to select an area for capture)
 3.17. Installing Software with apt-get
 3.18. Removing Software Installed with apt-get
-    &nbsp; Demonstrate how to install and remove packages with apt: sudo apt-get install abiword; sudo apt-get remove abiword
+    &nbsp;Demonstrate how to install and remove packages with apt: sudo apt-get install abiword; sudo apt-get remove abiword
 3.19. Installing Python Packages with Pip
-    &nbsp; Demonstrate how to install and remove Python libraries with PIP: 
+    &nbsp;Demonstrate how to install and remove Python libraries with PIP: 
     
 3.20. Fetching Files from the Command Line
-    &nbsp; Demonstrate how to use wget: wget link_to_file
+    &nbsp;Demonstrate how to use wget: wget link_to_file
 3.21. Fetching Source Code with Git
-    &nbsp; Demonstrate how to use Git to clone a repository with source code: https://github.com/omundy/dig333-raspberry-pi 
+    &nbsp;Demonstrate how to use Git to clone a repository with source code: https://github.com/omundy/dig333-raspberry-pi 
 <br><img width="609" alt="Screen Shot 2022-02-20 at 4 38 36 PM" src="https://user-images.githubusercontent.com/59931466/154865692-e78d7101-d211-49d4-ae00-9ceee1a0f939.png"><br>
-    &nbsp; Demonstrate how to use Python to execute the script inside ^ topics/introduction/01-hello/hello.py 
+    &nbsp;Demonstrate how to use Python to execute the script inside ^ topics/introduction/01-hello/hello.py 
 <br><img width="680" alt="Screen Shot 2022-02-20 at 4 39 38 PM" src="https://user-images.githubusercontent.com/59931466/154865702-3889eaad-8bb6-4e85-86d4-c46c6c12076d.png"><br>
-    &nbsp; Demonstrate how to clone your own (DevLog) repository, edit files, stage, commit, and push the code back to Github: demonstrated in week 1 entry
+    &nbsp;Demonstrate how to clone your own (DevLog) repository, edit files, stage, commit, and push the code back to Github: demonstrated in week 1 entry
 3.22. Fetching This Book’s Accompanying Code
-    &nbsp; https://github.com/simonmonk/raspberrypi_cookbook_ed3 
+    &nbsp;https://github.com/simonmonk/raspberrypi_cookbook_ed3 
 <br><img width="698" alt="Screen Shot 2022-02-20 at 4 40 14 PM" src="https://user-images.githubusercontent.com/59931466/154865712-54a13b70-e744-43c5-b3f8-777c4f8186eb.png"><br>
 
 Monk - Ch5 Python Basics (111-131) Recipes, Python
