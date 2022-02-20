@@ -151,5 +151,117 @@ Feel free to skim the follow sections but note we will use SFTP and / or Git to 
 <del>2.9. Controlling the Pi Remotely Using RDP</del>  <br>
 <del>2.10. File Sharing on a Mac Network</del>  <br>
 <del>2.11. Using a Raspberry Pi for Network Attached Storage</del>  <br>
-<del>2.12. Network Printing</del>  <br>s
+<del>2.12. Network Printing</del>  <br>
 
+
+## Week 4
+
+### Context
+<!-- Philip K. Dick Pay for the Printer (1956) and The Preserving Machine (1953) -->
+
+“Pay for the Printer” is a science fiction short story written by Philip K. Dick. This apocalyptic story follows a group of remaining humas from the dwindling population, who rely on the presence of the alien species Biltong to build replicas of existing human products from “before the war.” Humans know nothing about the tools that they use, and this sad sentiment is reflected in the dialogue: “I was driving back home when my car began to break down. I looked under the hood, but who knows anything about motors? That's not our business.” (4-5) However, throughout the story these characters become interested in and learn to build their own tools. This story concept makes me think of how people advance tools to a point that most of them can not build those tools, but rather need tools to build them. I wonder if we are already past this stage in society or if we are getting there?
+
+<br>
+
+“The Preserving Machine” is a science fiction short story written by Philip K. Dick. This story focuses on Doc Labyrinth, who fears for the downfall of civilization, especially classical music. He thus builds a machine which converts music into living animals, which can survive on their own. However, over time these animals undergo evolution, and when converted back to their musical state, are unlike their original scores. Ignoring the conversations that could have about biology, this makes me think about technological advancement and how, when you release your work to the public, it is subject to change and become something you didn’t intend it to. This makes me wonder what technology we use that perhaps was invented with a different purpose? This idea is summarized in the short story in the following quote: “Even though this method failed, some other may work; something that we can't foresee or predict now may come along, some day.” (10)
+
+<br>
+<!-- Adam Curtis All Watched Over by Machines of Loving Grace Part 2 (2011) -->
+
+This video is one in a series of films that discusses the idea of earth being colonized by the machines. More specifically, this installment looks at nature from a technological stance. This is mostly done by exploring cybernetics and systems theory. This makes me think about greater intersections between nature, humans, and technology. Do our creations automatically reflect our environment? Thus, I wonder how much technology can, should, or is modeled off nature? I particularly liked the quote: “But what we are discovering is that if we see ourselves as components in a system, that it is very difficult to change the world.”
+
+### Experiments
+
+Monk - Ch3 Operating System (31-49) (Unix) Recipes, Python
+
+Chapter 3 - Operating System (31-49) (Unix)
+
+Codecademy Python: 3-1 Conditionals, 3-2 PygLatin
+
+Recipes and outcomes:
+3.0. Introduction
+    &nbsp; Much of 3.1-3.4 is covered in learn-computing/slides/command-line.html 
+3.1. Browsing Files Graphically
+    &nbsp; Demonstrate how to use the RPi Desktop: accomplished by connecting the raspberry pi to cyberduck
+
+3.2. Copying Files onto a USB Flash Drive
+    &nbsp; Use a USB flash drive with an RPi
+
+3.3. Starting a Terminal Session
+    &nbsp; Open the Terminal application on the RPi Desktop
+
+3.4. Navigating the Filesystem Using a Terminal
+    &nbsp; Explain essential UNIX CLI concepts: prompt, path, root, home, ~ (tilde) 
+    &nbsp; &nbsp; A prompt is the phrase that prompts the user to type on the command line: pi@mimipi ~ $. The path is where you are within the file system and the root is the begining of that file system. The home is the parent directory. The tilde is a shorthand for the home.
+    &nbsp; Demonstrate basic UNIX filesystem command(s): cd, ls, pwd, man
+    &nbsp; Demonstrate intermediate shell usage: tab, * (wildcards), listing hidden files
+    &nbsp; Also see: learn-computing/slides/files-folders.html#9 
+3.5. Copying a File or Folder
+    &nbsp; Demonstrate command(s): cp 
+3.6. Renaming a File or Folder
+    &nbsp; Demonstrate command(s): mv 
+3.7. Editing a File
+    &nbsp; Demonstrate how to use nano text editor to open, edit, save, close a file
+3.8. Viewing the Contents of a File
+    &nbsp; Demonstrate command(s): cat, more
+3.9. Creating a File Without Using an Editor
+    &nbsp; Demonstrate how to use echo with the ">" character to export a string to a file
+3.10. Creating a Directory
+    &nbsp; Demonstrate command(s): mkdir
+3.11. Deleting a File or Directory
+    &nbsp; ⚠️ Be careful when removing files and directories!
+    &nbsp; Demonstrate command(s): rm
+3.12. Performing Tasks with Superuser Privileges
+    &nbsp; Demonstrate how to reboot the RPi from the CLI: sudo shutdown -r now
+3.13. Understanding File Permissions
+    &nbsp; Demonstrate how to view permissions for files in a directory
+    &nbsp; Explain the three types of owners, and the three types of permissions they might have for each file.: the three premissions are r, w, and x for read, write, and executable permissions respetively. Permission strings are split into the three types of owners: first the person the document belongs to, second the group the document belongs to, and third everyone. 
+    &nbsp; Also see: learn-computing/slides/files-folders.html#6 
+3.14. Changing File Permissions
+    &nbsp; Explain why you might use chmod: chmod changes the file premissions 
+3.16. Making a Screen Capture
+    &nbsp; Recall which command to use for making a screenshot: scrot (-d time for delay, -s to select an area for capture)
+3.17. Installing Software with apt-get
+3.18. Removing Software Installed with apt-get
+    &nbsp; Demonstrate how to install and remove packages with apt: sudo apt-get install abiword; sudo apt-get remove abiword
+3.19. Installing Python Packages with Pip
+    &nbsp; Demonstrate how to install and remove Python libraries with PIP: 
+3.20. Fetching Files from the Command Line
+    &nbsp; Demonstrate how to use wget: wget link_to_file
+3.21. Fetching Source Code with Git
+    &nbsp; Demonstrate how to use Git to clone a repository with source code: https://github.com/omundy/dig333-raspberry-pi 
+    &nbsp; Demonstrate how to use Python to execute the script inside ^ topics/introduction/01-hello/hello.py 
+    &nbsp; Demonstrate how to clone your own (DevLog) repository, edit files, stage, commit, and push the code back to Github: demonstrated in week 1 entry
+3.22. Fetching This Book’s Accompanying Code
+    &nbsp; https://github.com/simonmonk/raspberrypi_cookbook_ed3 
+
+Monk - Ch5 Python Basics (111-131) Recipes, Python
+
+Codecademy Python: 4-1 Functions, 4-2 Taking a Vacation
+
+Recipes and outcomes:
+5.0. Introduction
+5.1. Deciding Between Python 2 and Python 3
+5.2. Editing Python Programs with Mu
+5.3. Using the Python Console
+5.4. Running Python Programs from the Terminal
+5.5. Assigning Names to Values (Variables)
+5.6. Displaying Output
+5.7. Reading User Input
+5.8. Arithmetic
+5.9. Creating Strings
+5.10. Concatenating (Joining) Strings
+5.11. Converting Numbers into Strings
+5.12. Converting Strings into Numbers
+5.13. Finding the Length of a String
+5.14. Finding the Position of One String Within Another
+5.15. Extracting Part of a String
+5.16. Replacing One String of Characters with Another Within a String
+5.17. Converting a String to Uppercase or Lowercase
+5.18. Running Commands Conditionally
+5.19. Comparing Values
+5.20. Logical Operators
+5.21. Repeating Instructions an Exact Number of Times
+5.22. Repeating Instructions Until Some Condition Changes
+5.23. Breaking Out of a Loop
+5.24. Defining a Function in Python
