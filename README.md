@@ -276,21 +276,17 @@ Recipes and outcomes:<br>
 5.16. Replacing One String of Characters with Another Within a String: i.e. string.replace("old_word", "new_word") <br>
 5.17. Converting a String to Uppercase or Lowercase: i.e. string.upper() or string.lower()  <br>
 5.18. Running Commands Conditionally: python if command<br>
-
-
+<img width="272" alt="Screen Shot 2022-02-20 at 6 17 34 PM" src="https://user-images.githubusercontent.com/59931466/154869031-00d449b4-0ebb-480a-a20d-86594e9be169.png"><br>
 5.19. Comparing Values: <br>
-
-
+<img width="244" alt="Screen Shot 2022-02-20 at 6 19 31 PM" src="https://user-images.githubusercontent.com/59931466/154869015-e73c8500-4a4e-4782-bc9a-b0005afa4391.png"><br>
 5.20. Logical Operators: <br>
-
-
+<img width="323" alt="Screen Shot 2022-02-20 at 6 20 16 PM" src="https://user-images.githubusercontent.com/59931466/154869009-c34bef4b-6bdc-48d3-b852-9bae2b103ecf.png"><br>
 5.21. Repeating Instructions an Exact Number of Times: <br>
-
-
+<img width="282" alt="Screen Shot 2022-02-20 at 6 18 47 PM" src="https://user-images.githubusercontent.com/59931466/154869024-7db95915-ec3f-4ddd-8f66-33fa0a312259.png"><br>
 5.22. Repeating Instructions Until Some Condition Changes: <br>
-
-
+<img width="329" alt="Screen Shot 2022-02-20 at 6 22 43 PM" src="https://user-images.githubusercontent.com/59931466/154869003-5e04a4e9-2f26-4811-92b6-a21340be91d7.png"><br>
 5.23. Breaking Out of a Loop: <br>
-
-
+<img width="310" alt="Screen Shot 2022-02-20 at 6 23 34 PM" src="https://user-images.githubusercontent.com/59931466/154868987-78d5fa85-eaaa-42f3-844c-5075a090097b.png"> <br>
 5.24. Defining a Function in Python: <br>
+<img width="274" alt="Screen Shot 2022-02-20 at 6 24 12 PM" src="https://user-images.githubusercontent.com/59931466/154868981-b05867ad-7a2a-4e11-aa20-f40977c7a784.png"><br>
+
