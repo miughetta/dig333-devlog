@@ -252,29 +252,34 @@ Monk - Ch5 Python Basics (111-131) Recipes, Python <br>
 
 Codecademy Python: 4-1 Functions, 4-2 Taking a Vacation <br>
 
-Recipes and outcomes:
-5.0. Introduction
-5.1. Deciding Between Python 2 and Python 3
-5.2. Editing Python Programs with Mu
-5.3. Using the Python Console
-5.4. Running Python Programs from the Terminal
-5.5. Assigning Names to Values (Variables)
-5.6. Displaying Output
-5.7. Reading User Input
-5.8. Arithmetic
-5.9. Creating Strings
-5.10. Concatenating (Joining) Strings
-5.11. Converting Numbers into Strings
-5.12. Converting Strings into Numbers
-5.13. Finding the Length of a String
-5.14. Finding the Position of One String Within Another
-5.15. Extracting Part of a String
-5.16. Replacing One String of Characters with Another Within a String
-5.17. Converting a String to Uppercase or Lowercase
-5.18. Running Commands Conditionally
-5.19. Comparing Values
-5.20. Logical Operators
-5.21. Repeating Instructions an Exact Number of Times
-5.22. Repeating Instructions Until Some Condition Changes
-5.23. Breaking Out of a Loop
-5.24. Defining a Function in Python
+Recipes and outcomes:<br>
+5.0. Introduction<br>
+5.1. Deciding Between Python 2 and Python 3: Use python 3 unless there is an issue that requires python 2<br>
+5.2. Editing Python Programs with Mu:<br>
+5.3. Using the Python Console: python3; then you can type command directly<br>
+5.4. Running Python Programs from the Terminal: python program_name.py<br>
+5.5. Assigning Names to Values (Variables): i.e. a = 1<br>
+5.6. Displaying Output: <br>
+
+5.7. Reading User Input: <br>
+
+5.8. Arithmetic: <br>
+
+5.9. Creating Strings: <br>
+
+5.10. Concatenating (Joining) Strings: <br>
+
+5.11. Converting Numbers into Strings<br>
+5.12. Converting Strings into Numbers<br>
+5.13. Finding the Length of a String<br>
+5.14. Finding the Position of One String Within Another<br>
+5.15. Extracting Part of a String<br>
+5.16. Replacing One String of Characters with Another Within a String<br>
+5.17. Converting a String to Uppercase or Lowercase<br>
+5.18. Running Commands Conditionally<br>
+5.19. Comparing Values<br>
+5.20. Logical Operators<br>
+5.21. Repeating Instructions an Exact Number of Times<br>
+5.22. Repeating Instructions Until Some Condition Changes<br>
+5.23. Breaking Out of a Loop<br>
+5.24. Defining a Function in Python<br>
