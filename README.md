@@ -141,6 +141,10 @@ Recipes and outcomes:<br>
 1.18. Using Bluetooth
     ⚠️ Just skim this section.<br>
 
+Describe the most important thing you learned (to share in class): How to reboot the Rapsberry Pi.
+<br>
+Write a quiz question (which we will discuss in class): What type of Raspberry Pi are we using?
+<br>
 
 ## Week 3
 
@@ -191,6 +195,10 @@ Feel free to skim the follow sections but note we will use SFTP and / or Git to 
 <del>2.11. Using a Raspberry Pi for Network Attached Storage</del>  <br>
 <del>2.12. Network Printing</del>  <br>
 
+Describe the most important thing you learned (to share in class): Connecting to the Raspberry Pi wirelessly.
+<br>
+Write a quiz question (which we will discuss in class): What command allows us to connect to our Raspberry Pi in the terminal?
+<br>
 
 ## Week 4
 
@@ -283,6 +291,11 @@ Recipes and outcomes:<br>
     &nbsp;https://github.com/simonmonk/raspberrypi_cookbook_ed3 
 <br><img width="698" alt="Screen Shot 2022-02-20 at 4 40 14 PM" src="https://user-images.githubusercontent.com/59931466/154865712-54a13b70-e744-43c5-b3f8-777c4f8186eb.png"><br>
 
+Describe the most important thing you learned (to share in class): How interact with files on the Raspberry Pi graphically through CyberDuck.
+<br>
+Write a quiz question (which we will discuss in class): How would you move directories?
+<br>
+
 Monk - Ch5 Python Basics (111-131) Recipes, Python <br>
 
 Codecademy Python: 4-1 Functions, 4-2 Taking a Vacation <br>
@@ -325,3 +338,7 @@ Recipes and outcomes:<br>
 5.24. Defining a Function in Python: <br>
 <img width="274" alt="Screen Shot 2022-02-20 at 6 24 12 PM" src="https://user-images.githubusercontent.com/59931466/154868981-b05867ad-7a2a-4e11-aa20-f40977c7a784.png"><br>
 
+Describe the most important thing you learned (to share in class): How to use python directly within the command line on the Raspberry Pi.
+<br>
+Write a quiz question (which we will discuss in class): How do you run a python file on the Raspberry Pi?
+<br>
