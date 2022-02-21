@@ -83,8 +83,6 @@ This website article By Internet of Shit dicusses the concept of connected devic
 The Internet of Things has a dirty little secret: it's not really yours <br>
 This website article by Sanjay Sarma dicusses the idea that everything is connected on the internet wheather it improves the technology or not. Devices do not always need to be connected but the idea that such cinnection makes them better drives this. This makes internet reach more "intimate" parts of our lives leaving questions about what obligation the companies have to creating devices that will achieve longevity in these spaces? In what ways will these devices try to monetize these intimate aspects of our lives? This makes me think of the monetization of ads especially on google, where our information is stored aggresively to market us as consumers. The reading also specifically askes: "when everything’s connected and nobody’s responsible for the consequences, what happens?" 
 
-
-
 ### Experiments
 #### Platt
 1. Taste the power: This experiment has the user put their tongue to the end of a nine volt battery to create a circuit with the body. Having a wet tongue lowers the resistance in the circuit and allows more elctric current to flow causing a greater tingle in the tongue than when it is dry. This difference can be measured with a meter. This concept of resistance is the most iumportant thing I learned through this experiment. Quiz Question: Does water lower or increase resistance? 
@@ -99,8 +97,49 @@ This website article by Sanjay Sarma dicusses the idea that everything is connec
 
 #### Monk
 
-Monk - Ch1 Setup and Management (1-25) <br>
+Chapter 1 - Setup and Management (1-25) <br>
+
 This chapeter introduces us to the Raspberry Pi. Sections show us how to connect to the system, connect to a power source, select an operating system, and connect the Rasperberry Pi to other components such as bluetooth and monitors. Overall, the most improtant thing I learned was how to get started with teh Rasperberry Pi, which is a new system to me. Quiz Question: What is a Raspberry Pi?
+
+Codecademy Python: 1-1 Syntax <br>
+
+Recipes and outcomes:<br>
+1.1 Selecting a Model of Raspberry Pi<br>
+    Explain some uses for different Raspberry Pis (Nano, Zero, V3, V4): Zero is good for embedded electronics due to low cost and wifi enabled for remote access. V3 is good for home automation media centers and electronics experimentation. V4 is good for computer vision and media centers. All models work for electronic display boards. <br>
+    List common features of a RPi 3 or 4 Model B: common features include ports, wifi, bluetooth, processors, connectors, etc.<br>
+1.3 Enclosing a Raspberry Pi<br>
+    Explain why you need an enclosure: protects the system.<br>
+1.4 Selecting a Power Supply<br>
+    Recall the standard operating voltage of a RPi: 5 V DC<br>
+    Describe the safe operating current (A) of a RPi, as well as some considerations: 3A but 2A or 1.5A if using wifi/bluetooth with significant power needs.<br>
+    Describe the potential downsides of using too little current or too much: fire risks, failure of the system, and reset of the device.<br>
+1.5 Selecting an Operating System 
+    Recall there are custom operating systems for media centers, retro gaming, etc: Computing or electrical projects require Raspbian. A media center requires there are specific distributions. <br>
+1.7 Installing an Operating System Without NOOBS
+    ⚠️  NOOBs is no longer supported. We will be using Raspberry Pi OS.<br>
+    Explain why it is best to avoid NOOBS, Pi Bakery, and other "pre installed" SD cards and non-RPI Foundation options: Software issues with harder troubleshooting.<br>
+    Demonstrate how to install Raspberry Pi OS using Raspberry Pi Imager: we did this using the usb in class and the following link: https://docs.google.com/presentation/d/1uJMnvnv3IQLkj9WpkI5NVyug6yFyma_nPk9upxp34wU/edit#slide=id.g2ddf752781_0_325 <br>  
+        See also: Adafruit RPi 1 - Preparing an SD card for your raspberry pi <br>
+1.12 Using a Composite Video Monitor/TV <br>
+    Describe the two video out signals on a RPi: HDMI or audio jack<br>
+1.14. Maximizing Performance<br>
+    Describe the pros and cons of "overclocking": consumes more power and runs hotter in order for the proccesses to run faster.<br>
+    Demonstrate how to configure your RPI with sudo raspi-config: sudo raspi-config <br>
+        See also: Adafruit RPi 2 - First Time Configuration<br>
+1.15. Changing Your Password<br>
+    se raspi-config to change your password<br>
+1.16. Shutting Down Your Raspberry Pi<br>
+    Explain what sudo is and why you would use it: delegates authority for tasks that need permissions<br>
+    Demonstrate how to reboot from the command line: sudo reboot<br>
+    Explain why you shouldn't pull the power plug on the (any) computer: will force a reboot<br>
+1.17. Installing the Raspberry Pi Camera Module<br>
+    ⚠️ Just skim this section.<br>
+    Explain how to install and enable the Pi Camera: Enable in Camera option of Raspberry Pi Configuration Interfaces<br>
+    View the help menu for raspistill<br>  
+    Use raspistill to take a picture via the CLI<br>
+    ⚠️ Do this with a camerapi<br>
+1.18. Using Bluetooth
+    ⚠️ Just skim this section.<br>
 
 
 ## Week 3
@@ -117,18 +156,18 @@ This video is one in a series of films that discusses the idea of earth being co
 
 
 ### Experiments
-#### Monk
+Monk chapter 2 - Networking (31-49)<br>
 Codecademy Python: 2-1 Strings, 2-2 Date Time <br>
 
 Recipes and outcomes: <br>
     2.0. Introduction <br>
     2.1. Connecting to a Wired Network <br>
     &nbsp; See also: Adafruit RPi 3 - Network Setup <br>
-    &nbsp;  Connect to a Raspberry Pi via SSH <br>
-    &nbsp; &nbsp;   Use on of the lab demos: ssh pi@demopi1.local <br>
+    &nbsp;  Connect to a Raspberry Pi via SSH: <br>
+    &nbsp; &nbsp;   Use on of the lab demos: ssh pi@mimipi <br>
     2.2. Finding Your IP Address <br>
     &nbsp;  Demonstrate two different methods to find your IP address <br>
-    &nbsp; &nbsp;   sudo ifconfig <br>
+    &nbsp; &nbsp;   sudo ifconfig or ping mimipi<br>
     2.3. Setting a Static IP Address <br>
     &nbsp;  Just skim this section. <br>
     2.4. Setting the Network Name of a Raspberry Pi <br>
@@ -140,10 +179,9 @@ Recipes and outcomes: <br>
     &nbsp;  See also: Adafruit RPi 5 - Login to a Pi via a Serial Connection <br>
     2.7. Controlling the Pi Remotely with SSH <br>
     &nbsp;  Demonstrate how to connect and disconnect to a RPi via SSH:  <br>
-    &nbsp; &nbsp;   sudo raspi-config <br>
-    &nbsp; &nbsp;   ssh IP_ADDRESS_HERE -l pi <br>
+    &nbsp; &nbsp;   sudo raspi-config; ssh IP_ADDRESS_HERE -l pi <br>
     &nbsp;  Demonstrate how to perform basic filesystem task over SSH <br>
-    &nbsp; &nbsp;   Conduct work in the terminal as you normally wouldv
+    &nbsp; &nbsp;   Conduct work in the terminal as you normally would
     &nbsp;  See also: Adafruit RPi 6 - Using SSH  <br>
         
 Feel free to skim the follow sections but note we will use SFTP and / or Git to move files to/from our RPi: <br>
@@ -186,12 +224,10 @@ Recipes and outcomes:<br>
 <br><img width="862" alt="Screen Shot 2022-02-20 at 2 45 50 PM" src="https://user-images.githubusercontent.com/59931466/154865534-34f73d9c-5d3e-4276-9590-5cbf2bfd1871.png"><br>
 3.2. Copying Files onto a USB Flash Drive <br>
     &nbsp;Use a USB flash drive with an RPi <br>
-
 3.3. Starting a Terminal Session <br>
-    &nbsp;Open the Terminal application on the RPi Desktop <br>
+    &nbsp;Open the Terminal application on the RPi Desktop<br>
 3.4. Navigating the Filesystem Using a Terminal <br>
-    &nbsp;Explain essential UNIX CLI concepts: prompt, path, root, home, ~ (tilde) <br>
-    &nbsp;&nbsp; A prompt is the phrase that prompts the user to type on the command line: pi@mimipi ~ $. The path is where you are within the file system and the root is the begining of that file system. The home is the parent directory. The tilde is a shorthand for the home. <br>
+    &nbsp;Explain essential UNIX CLI concepts: prompt, path, root, home, ~ (tilde): A prompt is the phrase that prompts the user to type on the command line: pi@mimipi ~ $. The path is where you are within the file system and the root is the begining of that file system. The home is the parent directory. The tilde is a shorthand for the home. <br>
     &nbsp;Demonstrate basic UNIX filesystem command(s): cd, ls, pwd, man
 <br><img width="421" alt="Screen Shot 2022-02-20 at 2 52 21 PM" src="https://user-images.githubusercontent.com/59931466/154865600-7f90a930-0ecb-4524-bad8-46e5d915cf52.png"><br>
     &nbsp;Demonstrate intermediate shell usage: tab, * (wildcards), listing hidden files
@@ -234,8 +270,7 @@ Recipes and outcomes:<br>
 3.18. Removing Software Installed with apt-get <br>
     &nbsp;Demonstrate how to install and remove packages with apt: sudo apt-get install abiword; sudo apt-get remove abiword <br>
 3.19. Installing Python Packages with Pip <br>
-    &nbsp;Demonstrate how to install and remove Python libraries with PIP: <br> 
-    
+    &nbsp;Demonstrate how to install and remove Python libraries with PIP: sudo apt-get install svgwrite; sudo apt-get install python-pip<br> 
 3.20. Fetching Files from the Command Line <br>
     &nbsp;Demonstrate how to use wget: wget link_to_file <br>
 3.21. Fetching Source Code with Git <br>
@@ -255,7 +290,7 @@ Codecademy Python: 4-1 Functions, 4-2 Taking a Vacation <br>
 Recipes and outcomes:<br>
 5.0. Introduction<br>
 5.1. Deciding Between Python 2 and Python 3: Use python 3 unless there is an issue that requires python 2<br>
-5.2. Editing Python Programs with Mu:<br>
+5.2. Editing Python Programs with Mu: in the programs sectionof the main menu<br>
 5.3. Using the Python Console: python3; then you can type command directly<br>
 5.4. Running Python Programs from the Terminal: python program_name.py<br>
 5.5. Assigning Names to Values (Variables): i.e. a = 1<br>
