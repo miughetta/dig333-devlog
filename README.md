@@ -381,14 +381,14 @@ Experiment 6: Very Simple Switching (p.50) <br>
     Identify the "pole" of a switch: center terminal of a switch <br>
     Describe the difference between a SPST and SPDT:  A SPST is a single-pole or single throw switch. This type of switch has two terminals and are on/off. SPDT are single-pole double-throw switches. This type of switch can be flipped to make two possibel connections. <br>
     Use a multimeter and a switch to check continuity <br>
-
+    ![IMG_5105](https://user-images.githubusercontent.com/59931466/155635065-d2e30e60-52e1-43fb-b24a-b8c3ec4c4be4.jpg) <br>
     Read a basic electronics schematic that shows LEDs, resistors, power supply, and a switch using Tinkercad or pencil / paper. <br>
 
     Watch: Collin's Lab Switches (5:38) <br>
 Experiment 7: Investigating a Relay <br>
     Read information from a component (JQC-T78-DC5V) to find its datasheet or a supplier page <br>
-    Use Tinkercad to build and test (simulate) a circuit containing a relay. <br>
-
+    Use Tinkercad to build and test (simulate) a circuit containing a relay: we did this with a real circuit: <br>
+    <img width="486" alt="Screen Shot 2022-02-24 at 8 07 13 PM" src="https://user-images.githubusercontent.com/59931466/155635167-3e0ad31f-8327-457a-a8e5-7c44224dbf4c.png"><br>
     ⚠️ Don't break open the relay but do examine the images in the book. <br>
 Experiment 8: A Relay Oscillator <br>
     Use wire strippers to make jumper wire to "power" a breadboard. <br>
