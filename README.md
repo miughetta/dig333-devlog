@@ -373,10 +373,10 @@ All Watched Over by Machines of Loving Grace Part 3 is titled The Monkey in the 
 Platt - Ch2 Switching (41-91) Experiments 6-10 <br>
 
 Necessary Items for Chapter 2 <br>
-    Identify pliers, wire strippers, cutters <br>
-    Use wire strippers to strip insulation from "hook up" (solid core) or stranded wire <br>
-    Identify electrical components: switches, relays, trimpots, transistors, capacitors <br>
-    Watch: Collin's Lab Electronics Tools (9:27) <br>
+    - Identify pliers, wire strippers, cutters <br>
+    - Use wire strippers to strip insulation from "hook up" (solid core) or stranded wire <br>
+    - Identify electrical components: switches, relays, trimpots, transistors, capacitors <br>
+    - Watch: Collin's Lab Electronics Tools (9:27) <br>
 Experiment 6: Very Simple Switching (p.50) <br>
     Identify the "pole" of a switch: center terminal of a switch <br>
     Describe the difference between a SPST and SPDT:  A SPST is a single-pole or single throw switch. This type of switch has two terminals and are on/off. SPDT are single-pole double-throw switches. This type of switch can be flipped to make two possibel connections. <br>
