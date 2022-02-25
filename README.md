@@ -105,41 +105,41 @@ Codecademy Python: 1-1 Syntax <br>
 
 Recipes and outcomes:<br>
 1.1 Selecting a Model of Raspberry Pi<br>
-    Explain some uses for different Raspberry Pis (Nano, Zero, V3, V4): Zero is good for embedded electronics due to low cost and wifi enabled for remote access. V3 is good for home automation media centers and electronics experimentation. V4 is good for computer vision and media centers. All models work for electronic display boards. <br>
-    List common features of a RPi 3 or 4 Model B: common features include ports, wifi, bluetooth, processors, connectors, etc.<br>
+    - Explain some uses for different Raspberry Pis (Nano, Zero, V3, V4): Zero is good for embedded electronics due to low cost and wifi enabled for remote access. V3 is good for home automation media centers and electronics experimentation. V4 is good for computer vision and media centers. All models work for electronic display boards. <br>
+    - List common features of a RPi 3 or 4 Model B: common features include ports, wifi, bluetooth, processors, connectors, etc.<br>
 1.3 Enclosing a Raspberry Pi<br>
-    Explain why you need an enclosure: protects the system.<br>
+    - Explain why you need an enclosure: protects the system.<br>
 1.4 Selecting a Power Supply<br>
-    Recall the standard operating voltage of a RPi: 5 V DC<br>
-    Describe the safe operating current (A) of a RPi, as well as some considerations: 3A but 2A or 1.5A if using wifi/bluetooth with significant power needs.<br>
-    Describe the potential downsides of using too little current or too much: fire risks, failure of the system, and reset of the device.<br>
+    - Recall the standard operating voltage of a RPi: 5 V DC<br>
+    - Describe the safe operating current (A) of a RPi, as well as some considerations: 3A but 2A or 1.5A if using wifi/bluetooth with significant power needs.<br>
+    - Describe the potential downsides of using too little current or too much: fire risks, failure of the system, and reset of the device.<br>
 1.5 Selecting an Operating System 
-    Recall there are custom operating systems for media centers, retro gaming, etc: Computing or electrical projects require Raspbian. A media center requires there are specific distributions. <br>
+    - Recall there are custom operating systems for media centers, retro gaming, etc: Computing or electrical projects require Raspbian. A media center requires there are specific distributions. <br>
 1.7 Installing an Operating System Without NOOBS
     ⚠️  NOOBs is no longer supported. We will be using Raspberry Pi OS.<br>
-    Explain why it is best to avoid NOOBS, Pi Bakery, and other "pre installed" SD cards and non-RPI Foundation options: Software issues with harder troubleshooting.<br>
-    Demonstrate how to install Raspberry Pi OS using Raspberry Pi Imager: we did this using the usb in class and the following link: https://docs.google.com/presentation/d/1uJMnvnv3IQLkj9WpkI5NVyug6yFyma_nPk9upxp34wU/edit#slide=id.g2ddf752781_0_325 <br>  
-        See also: Adafruit RPi 1 - Preparing an SD card for your raspberry pi <br>
+    - Explain why it is best to avoid NOOBS, Pi Bakery, and other "pre installed" SD cards and non-RPI Foundation options: Software issues with harder troubleshooting.<br>
+    - Demonstrate how to install Raspberry Pi OS using Raspberry Pi Imager: we did this using the usb in class and the following link: https://docs.google.com/presentation/d/1uJMnvnv3IQLkj9WpkI5NVyug6yFyma_nPk9upxp34wU/edit#slide=id.g2ddf752781_0_325 <br>  
+        - See also: Adafruit RPi 1 - Preparing an SD card for your raspberry pi <br>
 1.12 Using a Composite Video Monitor/TV <br>
-    Describe the two video out signals on a RPi: HDMI or audio jack<br>
+    - Describe the two video out signals on a RPi: HDMI or audio jack<br>
 1.14. Maximizing Performance<br>
-    Describe the pros and cons of "overclocking": consumes more power and runs hotter in order for the proccesses to run faster.<br>
-    Demonstrate how to configure your RPI with sudo raspi-config: sudo raspi-config <br>
-        See also: Adafruit RPi 2 - First Time Configuration<br>
+    - Describe the pros and cons of "overclocking": consumes more power and runs hotter in order for the proccesses to run faster.<br>
+    - Demonstrate how to configure your RPI with sudo raspi-config: sudo raspi-config <br>
+    -    See also: Adafruit RPi 2 - First Time Configuration<br>
 1.15. Changing Your Password<br>
-    se raspi-config to change your password<br>
+    - se raspi-config to change your password<br>
 1.16. Shutting Down Your Raspberry Pi<br>
-    Explain what sudo is and why you would use it: delegates authority for tasks that need permissions<br>
-    Demonstrate how to reboot from the command line: sudo reboot<br>
-    Explain why you shouldn't pull the power plug on the (any) computer: will force a reboot<br>
+    - Explain what sudo is and why you would use it: delegates authority for tasks that need permissions<br>
+   - Demonstrate how to reboot from the command line: sudo reboot<br>
+    - Explain why you shouldn't pull the power plug on the (any) computer: will force a reboot<br>
 1.17. Installing the Raspberry Pi Camera Module<br>
-    ⚠️ Just skim this section.<br>
-    Explain how to install and enable the Pi Camera: Enable in Camera option of Raspberry Pi Configuration Interfaces<br>
-    View the help menu for raspistill<br>  
-    Use raspistill to take a picture via the CLI<br>
-    ⚠️ Do this with a camerapi<br>
+    - ⚠️ Just skim this section.<br>
+    - Explain how to install and enable the Pi Camera: Enable in Camera option of Raspberry Pi Configuration Interfaces<br>
+    - View the help menu for raspistill<br>  
+    - Use raspistill to take a picture via the CLI<br>
+    - ⚠️ Do this with a camerapi<br>
 1.18. Using Bluetooth
-    ⚠️ Just skim this section.<br>
+    - ⚠️ Just skim this section.<br>
 
 Describe the most important thing you learned (to share in class): How to reboot the Rapsberry Pi.
 <br>
@@ -166,27 +166,27 @@ Codecademy Python: 2-1 Strings, 2-2 Date Time <br>
 Recipes and outcomes: <br>
     2.0. Introduction <br>
     2.1. Connecting to a Wired Network <br>
-    &nbsp; See also: Adafruit RPi 3 - Network Setup <br>
-    &nbsp;  Connect to a Raspberry Pi via SSH: <br>
-    &nbsp; &nbsp;   Use on of the lab demos: ssh pi@mimipi <br>
+    - See also: Adafruit RPi 3 - Network Setup <br>
+    -  Connect to a Raspberry Pi via SSH: <br>
+    &nbsp; -   Use on of the lab demos: ssh pi@mimipi <br>
     2.2. Finding Your IP Address <br>
-    &nbsp;  Demonstrate two different methods to find your IP address <br>
-    &nbsp; &nbsp;   sudo ifconfig or ping mimipi<br>
+    -  Demonstrate two different methods to find your IP address <br>
+    &nbsp; -   sudo ifconfig or ping mimipi<br>
     2.3. Setting a Static IP Address <br>
-    &nbsp;  Just skim this section. <br>
+    -  Just skim this section. <br>
     2.4. Setting the Network Name of a Raspberry Pi <br>
-    &nbsp;  Explain how to change the hostname of a RPi:  <br>
-    &nbsp; &nbsp; This can be done through the raspberry pi configuration tool or the comand line <br>
+    -  Explain how to change the hostname of a RPi:  <br>
+    &nbsp; - This can be done through the raspberry pi configuration tool or the comand line <br>
     2.5. Setting Up a Wireless Connection <br>
-    &nbsp;  Explain how to set up wifi on a RPi: This can be done using the Pixel Desktop or the through the command line. <br>
+    -  Explain how to set up wifi on a RPi: This can be done using the Pixel Desktop or the through the command line. <br>
     2.6. Connecting with a Console Lead <br>
-    &nbsp;  See also: Adafruit RPi 5 - Login to a Pi via a Serial Connection <br>
+    -  See also: Adafruit RPi 5 - Login to a Pi via a Serial Connection <br>
     2.7. Controlling the Pi Remotely with SSH <br>
-    &nbsp;  Demonstrate how to connect and disconnect to a RPi via SSH:  <br>
-    &nbsp; &nbsp;   sudo raspi-config; ssh IP_ADDRESS_HERE -l pi <br>
-    &nbsp;  Demonstrate how to perform basic filesystem task over SSH <br>
-    &nbsp; &nbsp;   Conduct work in the terminal as you normally would
-    &nbsp;  See also: Adafruit RPi 6 - Using SSH  <br>
+    -  Demonstrate how to connect and disconnect to a RPi via SSH:  <br>
+    &nbsp; -   sudo raspi-config; ssh IP_ADDRESS_HERE -l pi <br>
+    -  Demonstrate how to perform basic filesystem task over SSH <br>
+    &nbsp; - Conduct work in the terminal as you normally would
+    -   See also: Adafruit RPi 6 - Using SSH  <br>
         
 Feel free to skim the follow sections but note we will use SFTP and / or Git to move files to/from our RPi: <br>
 <del>2.8. Controlling the Pi Remotely with VNC</del>  <br>
@@ -226,69 +226,69 @@ Codecademy Python: 3-1 Conditionals, 3-2 PygLatin<br>
 
 Recipes and outcomes:<br>
 3.0. Introduction<br>
-    &nbsp;Much of 3.1-3.4 is covered in learn-computing/slides/command-line.html <br>
+    - Much of 3.1-3.4 is covered in learn-computing/slides/command-line.html <br>
 3.1. Browsing Files Graphically <br>
-    &nbsp;Demonstrate how to use the RPi Desktop: accomplished by connecting the raspberry pi to cyberduck
+    - Demonstrate how to use the RPi Desktop: accomplished by connecting the raspberry pi to cyberduck
 <br><img width="862" alt="Screen Shot 2022-02-20 at 2 45 50 PM" src="https://user-images.githubusercontent.com/59931466/154865534-34f73d9c-5d3e-4276-9590-5cbf2bfd1871.png"><br>
 3.2. Copying Files onto a USB Flash Drive <br>
-    &nbsp;Use a USB flash drive with an RPi <br>
+    - Use a USB flash drive with an RPi <br>
 3.3. Starting a Terminal Session <br>
-    &nbsp;Open the Terminal application on the RPi Desktop<br>
+    - Open the Terminal application on the RPi Desktop<br>
 3.4. Navigating the Filesystem Using a Terminal <br>
-    &nbsp;Explain essential UNIX CLI concepts: prompt, path, root, home, ~ (tilde): A prompt is the phrase that prompts the user to type on the command line: pi@mimipi ~ $. The path is where you are within the file system and the root is the begining of that file system. The home is the parent directory. The tilde is a shorthand for the home. <br>
-    &nbsp;Demonstrate basic UNIX filesystem command(s): cd, ls, pwd, man
+    - Explain essential UNIX CLI concepts: prompt, path, root, home, ~ (tilde): A prompt is the phrase that prompts the user to type on the command line: pi@mimipi ~ $. The path is where you are within the file system and the root is the begining of that file system. The home is the parent directory. The tilde is a shorthand for the home. <br>
+    - Demonstrate basic UNIX filesystem command(s): cd, ls, pwd, man
 <br><img width="421" alt="Screen Shot 2022-02-20 at 2 52 21 PM" src="https://user-images.githubusercontent.com/59931466/154865600-7f90a930-0ecb-4524-bad8-46e5d915cf52.png"><br>
-    &nbsp;Demonstrate intermediate shell usage: tab, * (wildcards), listing hidden files
+    - Demonstrate intermediate shell usage: tab, * (wildcards), listing hidden files
 <br><img width="539" alt="Screen Shot 2022-02-20 at 2 53 42 PM" src="https://user-images.githubusercontent.com/59931466/154865608-8c5211e0-8983-4ccb-a124-79f7520a60a0.png"><br>
-    &nbsp;Also see: learn-computing/slides/files-folders.html#9 <br>
+    - Also see: learn-computing/slides/files-folders.html#9 <br>
 3.5. Copying a File or Folder <br>
-    &nbsp;Demonstrate command(s): cp 
+    - Demonstrate command(s): cp 
 <br><img width="344" alt="Screen Shot 2022-02-20 at 3 03 36 PM" src="https://user-images.githubusercontent.com/59931466/154865612-2976591c-3e97-4a35-8aa1-dfb91af4d457.png"><br>
 3.6. Renaming a File or Folder <br>
-    &nbsp;Demonstrate command(s): mv 
+    - Demonstrate command(s): mv 
 <br><img width="383" alt="Screen Shot 2022-02-20 at 3 04 03 PM" src="https://user-images.githubusercontent.com/59931466/154865620-47c7a046-8a42-4f77-85f0-775ecb4e8208.png"><br>
 3.7. Editing a File <br>
-    &nbsp;Demonstrate how to use nano text editor to open, edit, save, close a file
+    - Demonstrate how to use nano text editor to open, edit, save, close a file
 <br><img width="564" alt="Screen Shot 2022-02-20 at 3 05 42 PM" src="https://user-images.githubusercontent.com/59931466/154865623-32e9d8bf-6a32-41b2-9b25-498bb42e6264.png"><br>
 3.8. Viewing the Contents of a File <br>
-    &nbsp;Demonstrate command(s): cat, more
+    - Demonstrate command(s): cat, more
 <br><img width="358" alt="Screen Shot 2022-02-20 at 3 06 22 PM" src="https://user-images.githubusercontent.com/59931466/154865639-f837a62f-ee76-4740-a5c7-497b8b2770ac.png"><br>
 3.9. Creating a File Without Using an Editor <br>
-    &nbsp;Demonstrate how to use echo with the ">" character to export a string to a file
+    - Demonstrate how to use echo with the ">" character to export a string to a file
 <br><img width="406" alt="Screen Shot 2022-02-20 at 3 07 00 PM" src="https://user-images.githubusercontent.com/59931466/154865647-5facf568-cf39-41bb-9dd8-d43c4387b8d8.png"><br>
 3.10. Creating a Directory <br>
-    &nbsp;Demonstrate command(s): mkdir
+    - Demonstrate command(s): mkdir
 <br><img width="382" alt="Screen Shot 2022-02-20 at 4 11 23 PM" src="https://user-images.githubusercontent.com/59931466/154865655-4f7bd37b-7e1e-4206-b050-8f9e20823401.png"><br>
 3.11. Deleting a File or Directory <br>
-    &nbsp;⚠️ Be careful when removing files and directories! <br>
+    - ⚠️ Be careful when removing files and directories! <br>
     &nbsp;Demonstrate command(s): rm
 <br><img width="355" alt="Screen Shot 2022-02-20 at 4 11 44 PM" src="https://user-images.githubusercontent.com/59931466/154865664-9fc98a50-26d4-4a29-bc78-31f083cde680.png"><br>
 3.12. Performing Tasks with Superuser Privileges <br>
-    &nbsp;Demonstrate how to reboot the RPi from the CLI: sudo shutdown -r now <br>
+    - Demonstrate how to reboot the RPi from the CLI: sudo shutdown -r now <br>
 3.13. Understanding File Permissions <br>
-    &nbsp;Demonstrate how to view permissions for files in a directory
+    - Demonstrate how to view permissions for files in a directory
 <br><img width="352" alt="Screen Shot 2022-02-20 at 4 14 07 PM" src="https://user-images.githubusercontent.com/59931466/154865676-f54b958f-bf0d-4b74-b600-6e2507ae0ee2.png"><br>
-    &nbsp;Explain the three types of owners, and the three types of permissions they might have for each file.: the three premissions are r, w, and x for read, write, and executable permissions respetively. Permission strings are split into the three types of owners: first the person the document belongs to, second the group the document belongs to, and third everyone. <br>
-    &nbsp;Also see: learn-computing/slides/files-folders.html#6 <br> 
+    - Explain the three types of owners, and the three types of permissions they might have for each file.: the three premissions are r, w, and x for read, write, and executable permissions respetively. Permission strings are split into the three types of owners: first the person the document belongs to, second the group the document belongs to, and third everyone. <br>
+    - Also see: learn-computing/slides/files-folders.html#6 <br> 
 3.14. Changing File Permissions <br>
-    &nbsp;Explain why you might use chmod: chmod changes the file premissions <br> 
+    - Explain why you might use chmod: chmod changes the file premissions <br> 
 3.16. Making a Screen Capture <br>
-    &nbsp;Recall which command to use for making a screenshot: scrot (-d time for delay, -s to select an area for capture) <br>
+    - Recall which command to use for making a screenshot: scrot (-d time for delay, -s to select an area for capture) <br>
 3.17. Installing Software with apt-get <br>
 3.18. Removing Software Installed with apt-get <br>
-    &nbsp;Demonstrate how to install and remove packages with apt: sudo apt-get install abiword; sudo apt-get remove abiword <br>
+    - Demonstrate how to install and remove packages with apt: sudo apt-get install abiword; sudo apt-get remove abiword <br>
 3.19. Installing Python Packages with Pip <br>
-    &nbsp;Demonstrate how to install and remove Python libraries with PIP: sudo apt-get install svgwrite; sudo apt-get install python-pip<br> 
+    - Demonstrate how to install and remove Python libraries with PIP: sudo apt-get install svgwrite; sudo apt-get install python-pip<br> 
 3.20. Fetching Files from the Command Line <br>
-    &nbsp;Demonstrate how to use wget: wget link_to_file <br>
+    - Demonstrate how to use wget: wget link_to_file <br>
 3.21. Fetching Source Code with Git <br>
-    &nbsp;Demonstrate how to use Git to clone a repository with source code: https://github.com/omundy/dig333-raspberry-pi 
+    - Demonstrate how to use Git to clone a repository with source code: https://github.com/omundy/dig333-raspberry-pi 
 <br><img width="609" alt="Screen Shot 2022-02-20 at 4 38 36 PM" src="https://user-images.githubusercontent.com/59931466/154865692-e78d7101-d211-49d4-ae00-9ceee1a0f939.png"><br>
-    &nbsp;Demonstrate how to use Python to execute the script inside ^ topics/introduction/01-hello/hello.py 
+    - Demonstrate how to use Python to execute the script inside ^ topics/introduction/01-hello/hello.py 
 <br><img width="680" alt="Screen Shot 2022-02-20 at 4 39 38 PM" src="https://user-images.githubusercontent.com/59931466/154865702-3889eaad-8bb6-4e85-86d4-c46c6c12076d.png"><br>
-    &nbsp;Demonstrate how to clone your own (DevLog) repository, edit files, stage, commit, and push the code back to Github: demonstrated in week 1 entry <br>
+    - Demonstrate how to clone your own (DevLog) repository, edit files, stage, commit, and push the code back to Github: demonstrated in week 1 entry <br>
 3.22. Fetching This Book’s Accompanying Code <br>
-    &nbsp;https://github.com/simonmonk/raspberrypi_cookbook_ed3 
+    - https://github.com/simonmonk/raspberrypi_cookbook_ed3 
 <br><img width="698" alt="Screen Shot 2022-02-20 at 4 40 14 PM" src="https://user-images.githubusercontent.com/59931466/154865712-54a13b70-e744-43c5-b3f8-777c4f8186eb.png"><br>
 
 Describe the most important thing you learned (to share in class): How interact with files on the Raspberry Pi graphically through CyberDuck.
@@ -378,30 +378,28 @@ Necessary Items for Chapter 2 <br>
     - Identify electrical components: switches, relays, trimpots, transistors, capacitors <br>
     - Watch: Collin's Lab Electronics Tools (9:27) <br>
 Experiment 6: Very Simple Switching (p.50) <br>
-    Identify the "pole" of a switch: center terminal of a switch <br>
-    Describe the difference between a SPST and SPDT:  A SPST is a single-pole or single throw switch. This type of switch has two terminals and are on/off. SPDT are single-pole double-throw switches. This type of switch can be flipped to make two possibel connections. <br>
-    Use a multimeter and a switch to check continuity <br>
+    - Identify the "pole" of a switch: center terminal of a switch <br>
+    - Describe the difference between a SPST and SPDT:  A SPST is a single-pole or single throw switch. This type of switch has two terminals and are on/off. SPDT are single-pole double-throw switches. This type of switch can be flipped to make two possibel connections. <br>
+    - Use a multimeter and a switch to check continuity <br>
     ![IMG_5105](https://user-images.githubusercontent.com/59931466/155635065-d2e30e60-52e1-43fb-b24a-b8c3ec4c4be4.jpg) <br>
-    Read a basic electronics schematic that shows LEDs, resistors, power supply, and a switch using Tinkercad or pencil / paper. <br>
-
-    Watch: Collin's Lab Switches (5:38) <br>
+    - Read a basic electronics schematic that shows LEDs, resistors, power supply, and a switch using Tinkercad or pencil / paper. <br>
+    - Watch: Collin's Lab Switches (5:38) <br>
 Experiment 7: Investigating a Relay <br>
-    Read information from a component (JQC-T78-DC5V) to find its datasheet or a supplier page <br>
-    Use Tinkercad to build and test (simulate) a circuit containing a relay: we did this with a real circuit: <br>
+    - Read information from a component (JQC-T78-DC5V) to find its datasheet or a supplier page <br>
+    - Use Tinkercad to build and test (simulate) a circuit containing a relay: we did this with a real circuit: <br>
     <img width="486" alt="Screen Shot 2022-02-24 at 8 07 13 PM" src="https://user-images.githubusercontent.com/59931466/155635167-3e0ad31f-8327-457a-a8e5-7c44224dbf4c.png"><br>
     ⚠️ Don't break open the relay but do examine the images in the book. <br>
 Experiment 8: A Relay Oscillator <br>
-    Use wire strippers to make jumper wire to "power" a breadboard. <br>
-
-    Explain the operation of a capacitor using an analogy where water = electricity: Capacitors store and release energy in alternate current, so it would be as if in the middle of a hose there was someone standing there putting there foot down in alternating motions reducing the flow.<br>
+    - Use wire strippers to make jumper wire to "power" a breadboard. <br>
+    - Explain the operation of a capacitor using an analogy where water = electricity: Capacitors store and release energy in alternate current, so it would be as if in the middle of a hose there was someone standing there putting there foot down in alternating motions reducing the flow.<br>
     ⚠️ Explain why large capacitors are dangerous: they store large amounts of energy that can be dangerous.<br>
     ⚠️ Explain why polarized capacitors are dangerous:  They can explode.<br>
-    Contrast the charge / discharge operation of different sizes (e.g. 1µF, 10µF, 100µF, 1,000µF) of capacitors: the bigger the capacitor, the more energy it can store.<br>
-    List common fault-tracing procedures for identifying circuit errors, such as incorrect voltage, orientation, component values, or connections: check voltages, check placement, check component orientation, check connections, check component values, check for damage, anc check yourself. <br>
-    Watch: Collin's Lab Capacitors (8:00) <br>
+    - Contrast the charge / discharge operation of different sizes (e.g. 1µF, 10µF, 100µF, 1,000µF) of capacitors: the bigger the capacitor, the more energy it can store.<br>
+    - List common fault-tracing procedures for identifying circuit errors, such as incorrect voltage, orientation, component values, or connections: check voltages, check placement, check component orientation, check connections, check component values, check for damage, anc check yourself. <br>
+    - Watch: Collin's Lab Capacitors (8:00) <br>
 Experiment 9: Time and Capacitors <br>
-    Capacitors <br>
+    - Capacitors <br>
 Experiment 10: Transistor Switching <br>
 Experiment 11: Light and Sound <br>
-    Watch: Collin's Lab Diodes (7:26), Transistors (8:56) <br>
+    - Watch: Collin's Lab Diodes (7:26), Transistors (8:56) <br>
 
