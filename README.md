@@ -391,6 +391,7 @@ Experiment 7: Investigating a Relay <br>
     ⚠️ Don't break open the relay but do examine the images in the book. <br>
 Experiment 8: A Relay Oscillator <br>
     - Use wire strippers to make jumper wire to "power" a breadboard. <br>
+    ![IMG_5112](https://user-images.githubusercontent.com/59931466/155637004-e6f136d0-792f-4e98-82dc-766f26a716f7.jpeg) <br>
     - Explain the operation of a capacitor using an analogy where water = electricity: Capacitors store and release energy in alternate current, so it would be as if in the middle of a hose there was someone standing there putting there foot down in alternating motions reducing the flow.<br>
     ⚠️ Explain why large capacitors are dangerous: they store large amounts of energy that can be dangerous.<br>
     ⚠️ Explain why polarized capacitors are dangerous:  They can explode.<br>
