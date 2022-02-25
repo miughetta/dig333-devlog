@@ -342,3 +342,66 @@ Describe the most important thing you learned (to share in class): How to use py
 <br>
 Write a quiz question (which we will discuss in class): How do you run a python file on the Raspberry Pi?
 <br>
+
+## Week 5
+
+### Context
+
+Brian Merchant Everything That’s Inside Your iPhone Motherboard (2017) <br>
+
+Everything That’s Inside Your Iphone by Brian Merchant looks at the proportion of components within an iphone. This is done by pulverizing the phone, weighing the elements, and determining the cost of each. This is then related to mining at Cerro Rico, which is known for its hazardous conditions and child labor. However, much of the products from these mines fuels the iphone industry, “so: metal mined by men and children wielding the most primitive of tools in one of the world's largest and oldest continuously running mines—the same mine that bankrolled the sixteenth century's richest empire—wound up inside some of today's most cutting-edge devices.” This makes me consider the ways we generally do not know where things in our everyday lives come from. Under the capitalistic society we live in, is there a way to ethically obtain these substances? What can we do about it as consumers?<br>
+
+One Man's Nearly Impossible Quest to Make a Toaster From Scratch (2009) images <br>
+
+One Man’s Nearly Impossible Quest to Make a Toaster From Scratch by Rachel Swaby follows Thomas Thwaites adventure in engineering. After deconstructing a toaster, Thwaites was able to observe the pieces of and thus reverse engineer the machine himself. Simplifying the process, Thwaites noticed five main elements,steel, mica, plastic, copper and nickel, within the machines. Thus, he traveled on his own to acquire these substances and then mold them into the appliance we use every day (to partial success), which overall “illuminated just how far removed our everyday items are from the raw materials that go into them.” This does make me wonder what kind of work goes into each appliance. It reminds me as a programmer how most people do not know the coding that goes into their everyday interfaces. What if anything would be possible for us Davidson students to make from scratch?<br>
+
+Adam Curtis All Watched Over by Machines of Loving Grace Part 3 (2011)<br>
+
+All Watched Over by Machines of Loving Grace Part 3 is titled The Monkey in the Machine and the Machine in the Monkey, and broadly looks into the selfish gene theory. Such a theory believes that humans are machines, but instead of driven by code, they are driven by their genes. Such genes could thus explain every human behavior from sucide, to murder, to goodness, and genocide. The founder of this theory, Bill Hamilton, also took his theory to support eugenics movements. However, this film counters these ideologies by arguing that “we have embraced aa fatalistic philosophy of us as helpless computing machines to both excuse and explain our political failure to change the world.” The idea of genes as code is also fascinating in terms of a data science point of view. There is much research currently on DNA data storage and the ability for large archives to be kept within DNA as a way to save space and move forward in computer science since DNA is the most efficient way we as humans have to store such data. It makes me wonder then how we categorize a machine? What are the implications of the word that would be beneficial in relation to humans and what implications would be harmful? <br>
+
+
+### Experiments
+
+<!-- List each Platt experiment / Monk recipe outcome, adding notes, photos, schematics, captions to show your work. -->
+
+1. Name of the experiment
+    1. Text, photos, etc.
+    1. Describe the most important thing you learned (to share in class)
+    1. Write a quiz question (which we will discuss in class)
+
+
+Platt - Ch2 Switching (41-91) Experiments 6-10 <br>
+
+Necessary Items for Chapter 2 <br>
+    Identify pliers, wire strippers, cutters <br>
+    Use wire strippers to strip insulation from "hook up" (solid core) or stranded wire <br>
+    Identify electrical components: switches, relays, trimpots, transistors, capacitors <br>
+    Watch: Collin's Lab Electronics Tools (9:27) <br>
+Experiment 6: Very Simple Switching (p.50) <br>
+    Identify the "pole" of a switch: center terminal of a switch <br>
+    Describe the difference between a SPST and SPDT:  A SPST is a single-pole or single throw switch. This type of switch has two terminals and are on/off. SPDT are single-pole double-throw switches. This type of switch can be flipped to make two possibel connections. <br>
+    Use a multimeter and a switch to check continuity <br>
+
+    Read a basic electronics schematic that shows LEDs, resistors, power supply, and a switch using Tinkercad or pencil / paper. <br>
+
+    Watch: Collin's Lab Switches (5:38) <br>
+Experiment 7: Investigating a Relay <br>
+    Read information from a component (JQC-T78-DC5V) to find its datasheet or a supplier page <br>
+    Use Tinkercad to build and test (simulate) a circuit containing a relay. <br>
+
+    ⚠️ Don't break open the relay but do examine the images in the book. <br>
+Experiment 8: A Relay Oscillator <br>
+    Use wire strippers to make jumper wire to "power" a breadboard. <br>
+
+    Explain the operation of a capacitor using an analogy where water = electricity: Capacitors store and release energy in alternate current, so it would be as if in the middle of a hose there was someone standing there putting there foot down in alternating motions reducing the flow.<br>
+    ⚠️ Explain why large capacitors are dangerous: they store large amounts of energy that can be dangerous.<br>
+    ⚠️ Explain why polarized capacitors are dangerous:  They can explode.<br>
+    Contrast the charge / discharge operation of different sizes (e.g. 1µF, 10µF, 100µF, 1,000µF) of capacitors: the bigger the capacitor, the more energy it can store.<br>
+    List common fault-tracing procedures for identifying circuit errors, such as incorrect voltage, orientation, component values, or connections: check voltages, check placement, check component orientation, check connections, check component values, check for damage, anc check yourself. <br>
+    Watch: Collin's Lab Capacitors (8:00) <br>
+Experiment 9: Time and Capacitors <br>
+    Capacitors <br>
+Experiment 10: Transistor Switching <br>
+Experiment 11: Light and Sound <br>
+    Watch: Collin's Lab Diodes (7:26), Transistors (8:56) <br>
+
