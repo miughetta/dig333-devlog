@@ -362,14 +362,6 @@ All Watched Over by Machines of Loving Grace Part 3 is titled The Monkey in the 
 
 ### Experiments
 
-<!-- List each Platt experiment / Monk recipe outcome, adding notes, photos, schematics, captions to show your work. -->
-
-1. Name of the experiment
-    1. Text, photos, etc.
-    1. Describe the most important thing you learned (to share in class)
-    1. Write a quiz question (which we will discuss in class)
-
-
 Platt - Ch2 Switching (41-91) Experiments 6-10 <br>
 
 Necessary Items for Chapter 2 <br>
@@ -384,23 +376,33 @@ Experiment 6: Very Simple Switching (p.50) <br>
     ![IMG_5105](https://user-images.githubusercontent.com/59931466/155635065-d2e30e60-52e1-43fb-b24a-b8c3ec4c4be4.jpg) <br>
     - Read a basic electronics schematic that shows LEDs, resistors, power supply, and a switch using Tinkercad or pencil / paper. <br>
     - Watch: Collin's Lab Switches (5:38) <br>
+    This expirement helped us understand the inside of a switch. Quiz Question: What is the central terminal of the switch called? <br>
 Experiment 7: Investigating a Relay <br>
     - Read information from a component (JQC-T78-DC5V) to find its datasheet or a supplier page <br>
     - Use Tinkercad to build and test (simulate) a circuit containing a relay: we did this with a real circuit: <br>
     <img width="486" alt="Screen Shot 2022-02-24 at 8 07 13 PM" src="https://user-images.githubusercontent.com/59931466/155635167-3e0ad31f-8327-457a-a8e5-7c44224dbf4c.png"><br>
     ⚠️ Don't break open the relay but do examine the images in the book. <br>
+    This expirement gave us good practice at simullating a circuit. Quiz Question: What is a relay?
 Experiment 8: A Relay Oscillator <br>
     - Use wire strippers to make jumper wire to "power" a breadboard. <br>
     ![IMG_5112](https://user-images.githubusercontent.com/59931466/155637004-e6f136d0-792f-4e98-82dc-766f26a716f7.jpeg) <br>
     - Explain the operation of a capacitor using an analogy where water = electricity: Capacitors store and release energy in alternate current, so it would be as if in the middle of a hose there was someone standing there putting there foot down in alternating motions reducing the flow.<br>
     ⚠️ Explain why large capacitors are dangerous: they store large amounts of energy that can be dangerous.<br>
     ⚠️ Explain why polarized capacitors are dangerous:  They can explode.<br>
-    - Contrast the charge / discharge operation of different sizes (e.g. 1µF, 10µF, 100µF, 1,000µF) of capacitors: the bigger the capacitor, the more energy it can store.<br>
+    - Contrast the charge / discharge operation of different sizes (e.g. 1µF, 10µF, 100µF, 1,000µF) of capacitors: the bigger the capacitor, the more energy it can store and thus the more they can charge/discharge.<br>
     - List common fault-tracing procedures for identifying circuit errors, such as incorrect voltage, orientation, component values, or connections: check voltages, check placement, check component orientation, check connections, check component values, check for damage, anc check yourself. <br>
     - Watch: Collin's Lab Capacitors (8:00) <br>
+    This expirement taught us how to incorporate these concepts on a breadboard. Quiz Question: Why does the relay buzz here?
 Experiment 9: Time and Capacitors <br>
-    - Capacitors <br>
+    - Explain what an RC Network is and how capacitors are essential to its function: combination of a capacitor and a resistor. a capacitor blocks DC while allowing AC.<br>
+    - Recall how much the capacitance increase is in T=RxC: 63% <br>
+    This expirement taught us about the time constant. Quiz Question: What is the time constant?
 Experiment 10: Transistor Switching <br>
+    - List and describe the three leads on an NPN bipolar transistor: Collector, Base, Emitter<br>
+    - What are two common functions of a transistor? switching and amplifying signals <br>
+    ⚠️ List two ways that transistors can be easily damaged (too much current between C>E, or connecting any C, B, E pins directly): burn out by applying power supply directly to two pins or not using a resistor <br> 
+    Watch: Collin's Lab Transistors (8:56) <br>
+    This expirement taught us about transistors. Quiz Question: how do capacitors and transistors work together?
 Experiment 11: Light and Sound <br>
-    - Watch: Collin's Lab Diodes (7:26), Transistors (8:56) <br>
-
+    - Build an oscillating circuit using NPN transistors. Add a potentiometer to change the frequency and a speaker to hear the "synth" effect. <br>
+    This expirement taught us how to utilize all our knowledge thus far for a sound synthesizer. Quiz Question: what does the diaphram/cone of the speaker do?
