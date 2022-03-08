@@ -429,6 +429,7 @@ Necessary Items for Chapter 3<br>
 Experiment 12: Joining Two Wires Together <br>
     - Demonstrate how to cut and strip hookup wire. <br>
     - Demonstrate how to solder two wires together and apply heat shrink tubing. <br>
+    <img width="650" alt="Screen Shot 2022-03-08 at 4 40 06 PM" src="https://user-images.githubusercontent.com/59931466/157329849-8ebcb549-cf91-4e88-a850-275a53267e02.png"> <br>
     ⚠️ Explain some of the actual hazards of electronics soldering: dust, fumes, hot surfaces, and fire hazard. <br>
     In this experiment, I learned soldering techniques. Quiz Question: what would you use soldering for beyond this example?<br>
 Experiment 13: Roasting an LED <br>
