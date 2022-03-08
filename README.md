@@ -440,21 +440,26 @@ Experiment 13: Roasting an LED <br>
 
 Monk - Ch6 Python Lists and Dictionaries (135-147) Recipes, Python<br>
 6.0. Introduction<br>
-6.1. Creating a List<br>
-6.2. Accessing Elements of a List<br>
-6.3. Finding the Length of a List <br>
-6.4. Adding Elements to a List<br>
-6.5. Removing Elements from a List<br>
-6.6. Creating a List by Parsing a String<br>
-6.7. Iterating Over a List<br>
-6.8. Enumerating a List<br>
-6.9. Sorting a List<br>
-6.10. Cutting Up a List<br>
-6.11. Applying a Function to a List<br>
-6.12. Creating a Dictionary<br>
-6.13. Accessing a Dictionary<br>
-6.14. Removing Entries from a Dictionary<br>
-6.15. Iterating Over Dictionaries<br>
+6.1. Creating a List: i.e. a = [34, 'Fred', 12, False, 72.3]<br>
+6.2. Accessing Elements of a List: i.e. a[1]<br>
+6.3. Finding the Length of a List: len(a) <br>
+6.4. Adding Elements to a List: a.append("new)<br>
+6.5. Removing Elements from a List: a.pop()<br>
+6.6. Creating a List by Parsing a String: "abc def ghi".split()<br>
+6.7. Iterating Over a List: <br>
+
+6.8. Enumerating a List:<br>
+
+6.9. Sorting a List: a.sort()<br>
+6.10. Cutting Up a List: a[1:3]<br>
+6.11. Applying a Function to a List: <br>
+
+6.12. Creating a Dictionary: phone_numbers = {'Simon':'01234 567899', 'Jane':'01234 666666'}<br>
+6.13. Accessing a Dictionary: <br>
+
+6.14. Removing Entries from a Dictionary: phone_numbers.pop('Jane')<br>
+6.15. Iterating Over Dictionaries: <br>
+
 
 Monk - Ch8 GPIO Basics (167-197) Recipes, Python: Raspberry Pi GPIO slides
 
