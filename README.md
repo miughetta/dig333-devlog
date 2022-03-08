@@ -406,3 +406,54 @@ Experiment 10: Transistor Switching <br>
 Experiment 11: Light and Sound <br>
     - Build an oscillating circuit using NPN transistors. Add a potentiometer to change the frequency and a speaker to hear the "synth" effect. <br>
     This expirement taught us how to utilize all our knowledge thus far for a sound synthesizer. Quiz Question: what does the diaphram/cone of the speaker do?
+
+## Week 6
+### Context
+John Correll, Igloo White (2004)<br>
+This article Igloo White (2004) by John Correll details the Vietnam War and the attempt for a technical solution by the USA. Igloo White was part of a greater operation to create a technical solution to the Vietnam War through the construction of a barrier between North and South Vietnam. However, most of these plans were abandoned except for the air force operations, which were titled Igloo White. Igloo White consisted of three technological pieces: sensors to track activity at the border, an orbiting aircraft that relays sensor information, and the surveillance center that managed this data. However, "Existing technology was not sufficient. The project required further development and engineering on the sensors, aerial delivery, monitoring equipment, processing and display, and other equipment.” This relates to the other reading on sensors and reminds us that many inventions we use in every day life were developed greatly by war efforts because the military is a major aspect of government motivation and funding. This makes me wonder what every day devices I use that were made by the military that I do not know about? <br>
+
+Mayo Nissen Unseen Sensors: Constantly Sensing but Rarely Seen (2014) <br>
+The Unseen Sensors article by Mayo Nissen explores sensor technology in everyday context. A really good summary of this article can be given by this quote from it: “Sensors are inherently of their context: the physical context they sense and the human one they often infer, but also of the corporations that manufacture them, and the organizations that install them and base decisions on the supposedly objective data that they create.” This article then gives a lot of good examples of sensor technology in radically different everyday contexts. Some of my favorites are remote traffic microwave radar sensor, outside temperature sensors, and photocells which adjust outdoor lights based on the amount of ambient light. This makes me wonder what other ways do you think that sensors or similar “invisible” technology are within our environments? What decisions are based on the data they capture? Should private companies be able to own data that is recorded in everyday public contexts? <br>
+
+
+### Experiments
+<!-- List each Platt experiment / Monk recipe outcome, adding notes, photos, schematics, captions to show your work. -->
+1. Name of the experiment
+    1. Text, photos, etc.
+    1. Describe the most important thing you learned (to share in class)
+    1. Write a quiz question (which we will discuss in class)
+
+Platt - Ch3 Getting Serious (99-132) Experiments 11-13<br>
+Necessary Items for Chapter 3<br>
+    - Solder, soldering iron, heat shrink tubing, wire cutters, strippers, alligator clips ("helping hands")<br>
+Experiment 12: Joining Two Wires Together <br>
+    - Demonstrate how to cut and strip hookup wire. <br>
+    - Demonstrate how to solder two wires together and apply heat shrink tubing. <br>
+    ⚠️ Explain some of the actual hazards of electronics soldering: dust, fumes, hot surfaces, and fire hazard. <br>
+    In this experiment, I learned soldering techniques. Quiz Question: what would you use soldering for beyond this example?<br>
+Experiment 13: Roasting an LED <br>
+    - Describe the purpose of a heat sink: pulls heat away from hot surfaces <br>
+    ⚠️ Just read this chapter. <br>
+    - Watch: Collin's Lab Diodes (7:26) <br>
+    In this experiment, I learned about the effects of heat in these techniques. Quiz Question: What are the rules for heat sinking?<br>
+
+Monk - Ch6 Python Lists and Dictionaries (135-147) Recipes, Python<br>
+6.0. Introduction<br>
+6.1. Creating a List<br>
+6.2. Accessing Elements of a List<br>
+6.3. Finding the Length of a List <br>
+6.4. Adding Elements to a List<br>
+6.5. Removing Elements from a List<br>
+6.6. Creating a List by Parsing a String<br>
+6.7. Iterating Over a List<br>
+6.8. Enumerating a List<br>
+6.9. Sorting a List<br>
+6.10. Cutting Up a List<br>
+6.11. Applying a Function to a List<br>
+6.12. Creating a Dictionary<br>
+6.13. Accessing a Dictionary<br>
+6.14. Removing Entries from a Dictionary<br>
+6.15. Iterating Over Dictionaries<br>
+
+Monk - Ch8 GPIO Basics (167-197) Recipes, Python: Raspberry Pi GPIO slides
+
