@@ -447,19 +447,19 @@ Monk - Ch6 Python Lists and Dictionaries (135-147) Recipes, Python<br>
 6.5. Removing Elements from a List: a.pop()<br>
 6.6. Creating a List by Parsing a String: "abc def ghi".split()<br>
 6.7. Iterating Over a List: <br>
-
+<img width="337" alt="Screen Shot 2022-03-08 at 5 54 34 PM" src="https://user-images.githubusercontent.com/59931466/157340113-a5c4e3fb-dace-4789-8c6d-274766477575.png"> <br>
 6.8. Enumerating a List:<br>
-
+<img width="246" alt="Screen Shot 2022-03-08 at 5 54 57 PM" src="https://user-images.githubusercontent.com/59931466/157340126-7a4313fc-47dd-4b7b-ae05-1d2c6b0e6289.png"><br>
 6.9. Sorting a List: a.sort()<br>
 6.10. Cutting Up a List: a[1:3]<br>
 6.11. Applying a Function to a List: <br>
-
+<img width="299" alt="Screen Shot 2022-03-08 at 5 56 14 PM" src="https://user-images.githubusercontent.com/59931466/157340147-f6f2fb52-cccb-4bf1-93cf-e76a181f08c2.png"><br>
 6.12. Creating a Dictionary: phone_numbers = {'Simon':'01234 567899', 'Jane':'01234 666666'}<br>
 6.13. Accessing a Dictionary: <br>
-
+<img width="505" alt="Screen Shot 2022-03-08 at 5 56 52 PM" src="https://user-images.githubusercontent.com/59931466/157340159-7dff0b42-3be9-4e0a-8aa2-628424ab9618.png"><br>
 6.14. Removing Entries from a Dictionary: phone_numbers.pop('Jane')<br>
 6.15. Iterating Over Dictionaries: <br>
-
+<img width="247" alt="Screen Shot 2022-03-08 at 5 57 51 PM" src="https://user-images.githubusercontent.com/59931466/157340171-69e65006-3d71-4b2d-8636-2f003cb9177f.png"><br>
 
 Monk - Ch8 GPIO Basics (167-197) Recipes, Python: Raspberry Pi GPIO slides
 
