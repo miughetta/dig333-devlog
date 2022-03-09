@@ -466,6 +466,7 @@ https://docs.google.com/presentation/d/1y-Ys5GJlCfmQzIV5xOyJjVObbGBO85akXeLTyZYA
 "General-purpose input/output (GPIO) is an uncommitted digital signal pin on integrated circuits." <br>
 ⚠️ Unplugging the power and placing the RPi on metal can destroy the pi.<br>
 GPIO pin layout: RPi has 40 GPIO pins (see image)<br>
+<img width="345" alt="Screen Shot 2022-03-08 at 6 10 50 PM" src="https://user-images.githubusercontent.com/59931466/157348295-45160e34-80fa-4d57-b039-25e30c6bda72.png">
 
 GPIO Pins, Connect to a Breadboard, connect an LED and button:<br>
 
@@ -527,4 +528,3 @@ See also: Adafruit RPi 13 - Power Control
 10.10. Changing the Color of an RGB LED
 10.11. Using an Analog Meter as a Display
 Do this in class
-
