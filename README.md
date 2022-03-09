@@ -417,12 +417,6 @@ The Unseen Sensors article by Mayo Nissen explores sensor technology in everyday
 
 
 ### Experiments
-<!-- List each Platt experiment / Monk recipe outcome, adding notes, photos, schematics, captions to show your work. -->
-1. Name of the experiment
-    1. Text, photos, etc.
-    1. Describe the most important thing you learned (to share in class)
-    1. Write a quiz question (which we will discuss in class)
-
 Platt - Ch3 Getting Serious (99-132) Experiments 11-13<br>
 Necessary Items for Chapter 3<br>
     - Solder, soldering iron, heat shrink tubing, wire cutters, strippers, alligator clips ("helping hands")<br>
@@ -461,5 +455,30 @@ Monk - Ch6 Python Lists and Dictionaries (135-147) Recipes, Python<br>
 6.15. Iterating Over Dictionaries: <br>
 <img width="247" alt="Screen Shot 2022-03-08 at 5 57 51 PM" src="https://user-images.githubusercontent.com/59931466/157340171-69e65006-3d71-4b2d-8636-2f003cb9177f.png"><br>
 
-Monk - Ch8 GPIO Basics (167-197) Recipes, Python: Raspberry Pi GPIO slides
+In chapter 6, we learned mostly about lists and dictonaries. How would we print the first thing in a list?<br>
 
+Monk - Ch8 GPIO Basics (167-197) Recipes, Python:<br>
+Raspberry Pi GPIO slides: <br>
+https://docs.google.com/presentation/d/1y-Ys5GJlCfmQzIV5xOyJjVObbGBO85akXeLTyZYAkjk/edit#slide=id.p <br>
+"General-purpose input/output (GPIO) is an uncommitted digital signal pin on integrated circuits." <br>
+⚠️ Unplugging the power and placing the RPi on metal can destroy the pi.<br>
+GPIO pin layout: RPi has 40 GPIO pins (see image)<br>
+
+Connect the GPIO: <br>
+- RPi runs on 5V but only use 3.3V on the GPIO pins<br>
+- No labels so be careful<br>
+
+GPIO + Digial I/O: <br>
+LED Blink in the python console<br>
+- import RPi.GPIO as GPIO<br>
+- GPIO.setmode(GPIO.BCM)<br>
+- GPIO.setup(18, GPIO.OUT)<br>
+- GPIO.output(18, True)<br>
+- GPIO.output(18, 0)<br>
+
+GPIO + Analog I/O: <br>
+- Analog-to-Digital Converter (ADC) chip<br>
+- Analog input using a capacitor<br>
+- Analog output using PWM<br>
+
+In chapter 8, we learned mostly about GPIO in relation to the Raspberry Pi.<br>
