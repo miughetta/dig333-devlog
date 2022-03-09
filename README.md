@@ -463,6 +463,7 @@ https://docs.google.com/presentation/d/1y-Ys5GJlCfmQzIV5xOyJjVObbGBO85akXeLTyZYA
 "General-purpose input/output (GPIO) is an uncommitted digital signal pin on integrated circuits." <br>
 ⚠️ Unplugging the power and placing the RPi on metal can destroy the pi.<br>
 GPIO pin layout: RPi has 40 GPIO pins (see image)<br>
+<img width="345" alt="Screen Shot 2022-03-08 at 6 10 50 PM" src="https://user-images.githubusercontent.com/59931466/157348295-45160e34-80fa-4d57-b039-25e30c6bda72.png">
 
 Connect the GPIO: <br>
 - RPi runs on 5V but only use 3.3V on the GPIO pins<br>
