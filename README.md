@@ -344,7 +344,6 @@ Write a quiz question (which we will discuss in class): How do you run a python 
 <br>
 
 ## Week 5
-
 ### Context
 
 Brian Merchant Everything That’s Inside Your iPhone Motherboard (2017) <br>
@@ -415,7 +414,6 @@ This article Igloo White (2004) by John Correll details the Vietnam War and the 
 Mayo Nissen Unseen Sensors: Constantly Sensing but Rarely Seen (2014) <br>
 The Unseen Sensors article by Mayo Nissen explores sensor technology in everyday context. A really good summary of this article can be given by this quote from it: “Sensors are inherently of their context: the physical context they sense and the human one they often infer, but also of the corporations that manufacture them, and the organizations that install them and base decisions on the supposedly objective data that they create.” This article then gives a lot of good examples of sensor technology in radically different everyday contexts. Some of my favorites are remote traffic microwave radar sensor, outside temperature sensors, and photocells which adjust outdoor lights based on the amount of ambient light. This makes me wonder what other ways do you think that sensors or similar “invisible” technology are within our environments? What decisions are based on the data they capture? Should private companies be able to own data that is recorded in everyday public contexts? <br>
 
-
 ### Experiments
 Platt - Ch3 Getting Serious (99-132) Experiments 11-13<br>
 Necessary Items for Chapter 3<br>
@@ -457,6 +455,11 @@ Monk - Ch6 Python Lists and Dictionaries (135-147) Recipes, Python<br>
 
 In chapter 6, we learned mostly about lists and dictonaries. How would we print the first thing in a list?<br>
 
+## Week 6
+### Context
+
+
+### Experiments
 Monk - Ch8 GPIO Basics (167-197) Recipes, Python:<br>
 Raspberry Pi GPIO slides: <br>
 https://docs.google.com/presentation/d/1y-Ys5GJlCfmQzIV5xOyJjVObbGBO85akXeLTyZYAkjk/edit#slide=id.p <br>
@@ -464,9 +467,13 @@ https://docs.google.com/presentation/d/1y-Ys5GJlCfmQzIV5xOyJjVObbGBO85akXeLTyZYA
 ⚠️ Unplugging the power and placing the RPi on metal can destroy the pi.<br>
 GPIO pin layout: RPi has 40 GPIO pins (see image)<br>
 
+GPIO Pins, Connect to a Breadboard, connect an LED and button:<br>
+
+
 Connect the GPIO: <br>
-- RPi runs on 5V but only use 3.3V on the GPIO pins<br>
-- No labels so be careful<br>
+- SSH into Raspberry Pi
+- RPi.GPIO "Blink"
+- Clone Git Repo and run python script
 
 GPIO + Digial I/O: <br>
 LED Blink in the python console<br>
@@ -475,10 +482,49 @@ LED Blink in the python console<br>
 - GPIO.setup(18, GPIO.OUT)<br>
 - GPIO.output(18, True)<br>
 - GPIO.output(18, 0)<br>
+- GPIO.cleanup() <br>
+
+Blink.py<br>
+- cd ~ <br>
+- git clone https://github.com/omundy/dig333-raspberry-pi <br>
+- cd ~/dig333-raspberry-pi <br>
+- python3 blink-basic.py<br>
 
 GPIO + Analog I/O: <br>
-- Analog-to-Digital Converter (ADC) chip<br>
-- Analog input using a capacitor<br>
-- Analog output using PWM<br>
+PWMLED <br>
+- cd ~/dig333-raspberry-pi/topics/gpio/blink/<br>
+- python3 fade.py<br>
+
+Analog-to-Digital Converter (ADC): either using a capcitor or using PWM<br>
+The rest of the slides had not been updated or tested so nothing was run. However, the slides were looked through.<br>
+
+GroverPi+ --> creates easy interface to a large group of sensors
 
 In chapter 8, we learned mostly about GPIO in relation to the Raspberry Pi.<br>
+
+
+Monk - Ch10 Controlling Hardware (280-304) Recipes, Python
+
+Codecademy Python: 7-1 Lists and Functions, 7-2 Battleship!
+
+Recipes and outcomes:
+10.0. Introduction
+10.1. Connecting an LED
+Describe the difference between RPi.GPIO and gpiozero libraries.
+Demonstrate a basic "blink" script using both RPi.GPIO and gpiozerio. 
+10.2. Leaving the GPIO Pins in a Safe State
+Explain what is meant by "safe input state"
+10.3. Controlling the Brightness of an LED
+Use gpiozero to fade an LED in and out.
+Skim. Refer to as needed.
+10.4. Switching a High-Power DC Device Using a Transistor
+10.5. Switching a High-Power Device Using a Relay
+See also: Adafruit RPi 13 - Power Control 
+10.6. Controlling High-Voltage AC Devices
+10.7. Controlling Hardware with Android and Bluetooth
+10.8. Making a User Interface to Turn Things On and Off
+10.9. Making a User Interface to Control PWM Power for LEDs and Motors
+10.10. Changing the Color of an RGB LED
+10.11. Using an Analog Meter as a Display
+Do this in class
+
