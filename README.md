@@ -458,6 +458,7 @@ In chapter 6, we learned mostly about lists and dictonaries. How would we print 
 ## Week 6
 ### Context
 
+We have now started working on our final projects. My Final Project Proposal can be found here: https://docs.google.com/presentation/d/1TujVObYuhyTQOjmMqiha4iHu0eQqJFxNu-qXhUJN70U/edit#slide=id.p 
 
 ### Experiments
 Monk - Ch8 GPIO Basics (167-197) Recipes, Python:<br>
@@ -469,7 +470,6 @@ GPIO pin layout: RPi has 40 GPIO pins (see image)<br>
 <img width="345" alt="Screen Shot 2022-03-08 at 6 10 50 PM" src="https://user-images.githubusercontent.com/59931466/157348295-45160e34-80fa-4d57-b039-25e30c6bda72.png">
 
 GPIO Pins, Connect to a Breadboard, connect an LED and button:<br>
-
 
 Connect the GPIO: <br>
 - SSH into Raspberry Pi
@@ -499,32 +499,32 @@ PWMLED <br>
 Analog-to-Digital Converter (ADC): either using a capcitor or using PWM<br>
 The rest of the slides had not been updated or tested so nothing was run. However, the slides were looked through.<br>
 
-GroverPi+ --> creates easy interface to a large group of sensors
+GroverPi+ --> creates easy interface to a large group of sensors <br>
 
 In chapter 8, we learned mostly about GPIO in relation to the Raspberry Pi.<br>
 
 
-Monk - Ch10 Controlling Hardware (280-304) Recipes, Python
+Monk - Ch10 Controlling Hardware (280-304) Recipes, Python <br>
 
-Codecademy Python: 7-1 Lists and Functions, 7-2 Battleship!
+Codecademy Python: 7-1 Lists and Functions, 7-2 Battleship! <br>
 
-Recipes and outcomes:
-10.0. Introduction
-10.1. Connecting an LED
-Describe the difference between RPi.GPIO and gpiozero libraries.
-Demonstrate a basic "blink" script using both RPi.GPIO and gpiozerio. 
-10.2. Leaving the GPIO Pins in a Safe State
-Explain what is meant by "safe input state"
-10.3. Controlling the Brightness of an LED
-Use gpiozero to fade an LED in and out.
-Skim. Refer to as needed.
-10.4. Switching a High-Power DC Device Using a Transistor
-10.5. Switching a High-Power Device Using a Relay
-See also: Adafruit RPi 13 - Power Control 
-10.6. Controlling High-Voltage AC Devices
-10.7. Controlling Hardware with Android and Bluetooth
-10.8. Making a User Interface to Turn Things On and Off
-10.9. Making a User Interface to Control PWM Power for LEDs and Motors
-10.10. Changing the Color of an RGB LED
-10.11. Using an Analog Meter as a Display
-Do this in class
+Recipes and outcomes: <br>
+10.0. Introduction <br>
+10.1. Connecting an LED <br>
+- Describe the difference between RPi.GPIO and gpiozero libraries: RPi.GPIO python library is standard but gpiozero is more accesible.  <br>
+- Demonstrate a basic "blink" script using both RPi.GPIO and gpiozerio: <br>
+10.2. Leaving the GPIO Pins in a Safe State <br>
+- Explain what is meant by "safe input state": an input that will not fry the hardware. <br>
+10.3. Controlling the Brightness of an LED <br>
+- Use gpiozero to fade an LED in and out. <br>
+- Skim. Refer to as needed. <br>
+10.4. Switching a High-Power DC Device Using a Transistor <br>
+10.5. Switching a High-Power Device Using a Relay <br>
+- See also: Adafruit RPi 13 - Power Control <br>
+10.6. Controlling High-Voltage AC Devices <br>
+10.7. Controlling Hardware with Android and Bluetooth <br>
+10.8. Making a User Interface to Turn Things On and Off <br>
+10.9. Making a User Interface to Control PWM Power for LEDs and Motors <br>
+10.10. Changing the Color of an RGB LED <br>
+10.11. Using an Analog Meter as a Display <br>
+- Do this in class <br>
