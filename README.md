@@ -484,24 +484,28 @@ LED Blink in the python console<br>
 - GPIO.output(18, True)<br>
 - GPIO.output(18, 0)<br>
 - GPIO.cleanup() <br>
+<img width="340" alt="Screen Shot 2022-03-09 at 2 45 13 PM" src="https://user-images.githubusercontent.com/59931466/157523657-841cc560-7717-42da-8ad0-16cd6babe6bb.png"><br>
+
 
 Blink.py<br>
 - cd ~ <br>
 - git clone https://github.com/omundy/dig333-raspberry-pi <br>
 - cd ~/dig333-raspberry-pi <br>
 - python3 blink-basic.py<br>
+<img width="598" alt="Screen Shot 2022-03-09 at 2 46 19 PM" src="https://user-images.githubusercontent.com/59931466/157523683-1bd17275-263b-49d4-b40d-17ef11e60456.png"><br>
 
 GPIO + Analog I/O: <br>
 PWMLED <br>
 - cd ~/dig333-raspberry-pi/topics/gpio/blink/<br>
 - python3 fade.py<br>
+<img width="570" alt="Screen Shot 2022-03-09 at 2 55 56 PM" src="https://user-images.githubusercontent.com/59931466/157523721-6b41ec9b-582b-4b72-a372-f3448a663fc5.png"><br>
 
 Analog-to-Digital Converter (ADC): either using a capcitor or using PWM<br>
 The rest of the slides had not been updated or tested so nothing was run. However, the slides were looked through.<br>
 
 GroverPi+ --> creates easy interface to a large group of sensors <br>
 
-In chapter 8, we learned mostly about GPIO in relation to the Raspberry Pi.<br>
+In chapter 8, we learned mostly about GPIO in relation to the Raspberry Pi. Quiz Question: How do you run a file on the Raspberry Pi?<br>
 
 
 Monk - Ch10 Controlling Hardware (280-304) Recipes, Python <br>
