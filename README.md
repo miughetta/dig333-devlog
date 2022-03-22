@@ -516,7 +516,8 @@ Recipes and outcomes: <br>
 10.0. Introduction <br>
 10.1. Connecting an LED <br>
 - Describe the difference between RPi.GPIO and gpiozero libraries: RPi.GPIO python library is standard but gpiozero is more accesible.  <br>
-- Demonstrate a basic "blink" script using both RPi.GPIO and gpiozerio: <br>
+- Demonstrate a basic "blink" script using both RPi.GPIO and gpiozerio: <br> 
+<img width="655" alt="Screen Shot 2022-03-21 at 8 20 33 PM" src="https://user-images.githubusercontent.com/59931466/159383637-4cea3cf0-0912-4aa4-84ea-030892432291.png"> <br>
 10.2. Leaving the GPIO Pins in a Safe State <br>
 - Explain what is meant by "safe input state": an input that will not fry the hardware. <br>
 10.3. Controlling the Brightness of an LED <br>
