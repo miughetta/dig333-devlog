@@ -533,3 +533,5 @@ Recipes and outcomes: <br>
 10.10. Changing the Color of an RGB LED <br>
 10.11. Using an Analog Meter as a Display <br>
 - Do this in class <br>
+
+This chapter taught us mostlky about GPIO and its application with the raspberry pi. <br>
