@@ -455,7 +455,7 @@ Monk - Ch6 Python Lists and Dictionaries (135-147) Recipes, Python<br>
 
 In chapter 6, we learned mostly about lists and dictonaries. How would we print the first thing in a list?<br>
 
-## Week 6
+## Week 7
 ### Context
 
 We have now started working on our final projects. My Final Project Proposal can be found here: https://docs.google.com/presentation/d/1TujVObYuhyTQOjmMqiha4iHu0eQqJFxNu-qXhUJN70U/edit#slide=id.p 
