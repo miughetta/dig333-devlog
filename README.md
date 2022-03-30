@@ -540,7 +540,7 @@ This chapter taught us mostlky about GPIO and its application with the raspberry
 ## Week 8
 ### Context
 
-For my final project, I have begun figuring out the hardware. I have attached the RHT03 Humidity and Temperature Sensor to the bread board. I am working on attaching the BMP085 Barometric Pressure Sensor. Questions revolve around if the wiring is correct and how to continue with the programming. 
+For my final project and for my first milestone, I have begun figuring out the hardware. I have attached the RHT03 Humidity and Temperature Sensor to the bread board. I am working on attaching the BMP085 Barometric Pressure Sensor. Questions revolve around if the wiring is correct and how to continue with the programming. 
 
 ### Experiments
 Monk - Ch11 Digital Inputs (265-292) Recipes, Python <br>
