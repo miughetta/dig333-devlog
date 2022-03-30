@@ -582,29 +582,29 @@ See also: Adafruit RPi 12 - Sensing Movement  <br>
 Monk - Ch12 Sensors (297-325) <br>
 
 Recipes and outcomes: <br>
-13.0. Introduction <br>
-13.1. Using Resistive Sensors <br>
-13.2. Measuring Light <br>
-13.3. Measuring Temperature with a Thermistor <br>
+12.0. Introduction <br>
+12.1. Using Resistive Sensors <br>
+- Connect a variable resistor to a Raspberry Pi <br>
+- Measure the position of its rotation<br>
+12.2. Measuring Light <br>
+- Measure light intensity with a raspberry pi and photoresistor<br>
 See also: Adafruit RPi 11 - ds18b20 Temperature Sensing  <br>
-13.4. Detecting Methane <br>
-13.5. Measuring CO2 Concentration <br>
-13.6. Measuring a Voltage <br>
-13.7. Reducing Voltages for Measurement <br>
-13.8. Using Resistive Sensors with an ADC <br>
-13.9. Measuring Temperature with an ADC <br>
-13.10. Measuring the Raspberry Pi CPU Temperature <br>
-13.11. Measuring Temperature, Humidity, and Pressure with a Sense HAT <br>
-13.12. Measuring Temperature Using a Digital Sensor <br>
-13.13. Measuring Acceleration with an MMA8452Q Module <br>
-13.14. Finding Magnetic North with the Sense HAT <br>
-13.15. Using the Inertial Management Unit of the Sense HAT <br>
-13.16. Sensing a Magnet with a Reed Switch <br>
-13.17. Sensing a Magnet with the Sense HAT <br>
-13.18. Measuring Distance Using Ultrasound <br>
-13.19. Measuring Distance Using a Time-of-Flight Sensor <br>
-13.20. Capacitive Touch Sensing <br>
-13.21. Reading Smart Cards with an RFID Reader/Writer <br>
-13.22. Displaying Sensor Values <br>
-13.23. Logging to a USB Flash Drive <br>
+12.3. Detecting Methane <br>
+- Measuring gas levels using a methane sensor<br>
+12.4. Measuring a Voltage <br>
+- Analog Voltage<br>
+12.5. Reducing Voltages for Measurement <br>
+- For voltage higher than the 3.3V<br>
+12.6. Using Resistive Sensors with an ADC <br>
+12.7. Measuring Temperature with an ADC <br>
+- Measure temperature with a TMP36 / analog-to-digital converter<br>
+12.8. Measuring the Raspberry Pi CPU Temperature <br>
+- Connecting a triple-axis accelerometer <br>
+12.9. Measuring Temperature Using a Digital Sensor <br>
+12.10: Measuring Distance <br>
+- Measuring distance using an ultrasonic rangefinder<br>
+12.11. Displaying Sensor Values <br>
+- Sensor values displayed on screen<br>
+12.12. Logging to a USB Flash Drive <br>
+- Log data measured from any of these sensors on a USB Flash Drive<br>
 
