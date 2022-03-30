@@ -559,25 +559,24 @@ Recipes and outcomes: <br>
 11.4. Using a Center-Off Toggle or Slide Switch <br>
 -  Find the position of the switch in your Python program <br>
 11.5. Debouncing a Button Press <br>
-- 
+- Write python to de-bounce the switch.<br>
 11.6. Using an External Pull-Up Resistor <br>
-- 
+- False triggerings on the digital input can occur when there is a long wire from the Raspberry Pi to the switch<br>
 11.7. Using a Rotary (Quadrature) Encoder <br>
-- 
+- Rotary connected to two GPIO pins<br>
 11.8. Using a Keypad <br>
-- 
+- Keypad interface with raspberry pi <br>
 11.9. Detecting Movement <br>
+- Movement triggered action<br>
 See also: Adafruit RPi 12 - Sensing Movement  <br>
 11.10. Adding GPS to the Raspberry Pi <br>
-- 
+- Accessing the data using python<br>
 11.11. Intercepting Keypresses <br>
-- 
+- Using a USB keyboard or numeric keypad.<br>
 11.12. Intercepting Mouse Movements <br>
-- 
+- Detecting mouse movement using python<br>
 11.13. Using a Real-Time Clock Module <br>
-- 
-11.14. Giving the Raspberry Pi a Reset Button <br>
-- 
+- Even when it has no network connection, your raspberry pi can remember the time <br>
 
 
 Monk - Ch12 Sensors (297-325) <br>
@@ -585,51 +584,27 @@ Monk - Ch12 Sensors (297-325) <br>
 Recipes and outcomes: <br>
 13.0. Introduction <br>
 13.1. Using Resistive Sensors <br>
-- 
 13.2. Measuring Light <br>
-- 
 13.3. Measuring Temperature with a Thermistor <br>
-- 
 See also: Adafruit RPi 11 - ds18b20 Temperature Sensing  <br>
-- 
 13.4. Detecting Methane <br>
-- 
 13.5. Measuring CO2 Concentration <br>
-- 
 13.6. Measuring a Voltage <br>
-- 
 13.7. Reducing Voltages for Measurement <br>
-- 
 13.8. Using Resistive Sensors with an ADC <br>
-- 
 13.9. Measuring Temperature with an ADC <br>
-- 
 13.10. Measuring the Raspberry Pi CPU Temperature <br>
-- 
 13.11. Measuring Temperature, Humidity, and Pressure with a Sense HAT <br>
-- 
 13.12. Measuring Temperature Using a Digital Sensor <br>
-- 
 13.13. Measuring Acceleration with an MMA8452Q Module <br>
-- 
 13.14. Finding Magnetic North with the Sense HAT <br>
-- 
 13.15. Using the Inertial Management Unit of the Sense HAT <br>
-- 
 13.16. Sensing a Magnet with a Reed Switch <br>
-- 
 13.17. Sensing a Magnet with the Sense HAT <br>
-- 
 13.18. Measuring Distance Using Ultrasound <br>
-- 
 13.19. Measuring Distance Using a Time-of-Flight Sensor <br>
-- 
 13.20. Capacitive Touch Sensing <br>
-- 
 13.21. Reading Smart Cards with an RFID Reader/Writer <br>
-- 
 13.22. Displaying Sensor Values <br>
-- 
 13.23. Logging to a USB Flash Drive <br>
-- 
 
