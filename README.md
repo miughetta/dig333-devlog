@@ -455,7 +455,7 @@ Monk - Ch6 Python Lists and Dictionaries (135-147) Recipes, Python<br>
 
 In chapter 6, we learned mostly about lists and dictonaries. How would we print the first thing in a list?<br>
 
-## Week 6
+## Week 7
 ### Context
 
 We have now started working on our final projects. My Final Project Proposal can be found here: https://docs.google.com/presentation/d/1TujVObYuhyTQOjmMqiha4iHu0eQqJFxNu-qXhUJN70U/edit#slide=id.p 
@@ -533,3 +533,60 @@ Recipes and outcomes: <br>
 10.10. Changing the Color of an RGB LED <br>
 10.11. Using an Analog Meter as a Display <br>
 - Do this in class <br>
+
+
+## Week 8
+### Context
+
+    For my final project, I have begun figuring out the hardware. I have attached the RHT03 Humidity and Temperature Sensor to the bread board. I am working on attaching the BMP085 Barometric Pressure Sensor. Questions revolve around if the wiring is correct and how to continue with the programming. 
+
+### Experiments
+Monk - Ch11 Digital Inputs (265-292) Recipes, Python <br>
+
+Recipes and outcomes: <br>
+11.0. Introduction <br>
+11.1. Connecting a Push Switch <br>
+11.2. Toggling with a Push Switch <br>
+11.3. Using a Two-Position Toggle or Slide Switch <br>
+11.4. Using a Center-Off Toggle or Slide Switch <br>
+11.5. Debouncing a Button Press <br>
+11.6. Using an External Pull-Up Resistor <br>
+11.7. Using a Rotary (Quadrature) Encoder <br>
+11.8. Using a Keypad <br>
+11.9. Detecting Movement <br>
+- See also: Adafruit RPi 12 - Sensing Movement  <br>
+11.10. Adding GPS to the Raspberry Pi <br>
+11.11. Intercepting Keypresses <br>
+11.12. Intercepting Mouse Movements <br>
+11.13. Using a Real-Time Clock Module <br>
+11.14. Giving the Raspberry Pi a Reset Button <br>
+
+
+Monk - Ch12 Sensors (297-325) <br>
+
+Recipes and outcomes: <br>
+13.0. Introduction <br>
+13.1. Using Resistive Sensors <br>
+13.2. Measuring Light <br>
+13.3. Measuring Temperature with a Thermistor <br>
+See also: Adafruit RPi 11 - ds18b20 Temperature Sensing  <br>
+13.4. Detecting Methane <br>
+13.5. Measuring CO2 Concentration <br>
+13.6. Measuring a Voltage <br>
+13.7. Reducing Voltages for Measurement <br>
+13.8. Using Resistive Sensors with an ADC <br>
+13.9. Measuring Temperature with an ADC <br>
+13.10. Measuring the Raspberry Pi CPU Temperature <br>
+13.11. Measuring Temperature, Humidity, and Pressure with a Sense HAT <br>
+13.12. Measuring Temperature Using a Digital Sensor <br>
+13.13. Measuring Acceleration with an MMA8452Q Module <br>
+13.14. Finding Magnetic North with the Sense HAT <br>
+13.15. Using the Inertial Management Unit of the Sense HAT <br>
+13.16. Sensing a Magnet with a Reed Switch <br>
+13.17. Sensing a Magnet with the Sense HAT <br>
+13.18. Measuring Distance Using Ultrasound <br>
+13.19. Measuring Distance Using a Time-of-Flight Sensor <br>
+13.20. Capacitive Touch Sensing <br>
+13.21. Reading Smart Cards with an RFID Reader/Writer <br>
+13.22. Displaying Sensor Values <br>
+13.23. Logging to a USB Flash Drive <br>
