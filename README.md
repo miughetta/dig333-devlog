@@ -608,3 +608,11 @@ See also: Adafruit RPi 11 - ds18b20 Temperature Sensing  <br>
 12.12. Logging to a USB Flash Drive <br>
 - Log data measured from any of these sensors on a USB Flash Drive<br>
 
+## Week 11
+### MILESTONE 2 
+
+<b>Overview:</b> For my project, I have spent most of my time working on building the raspberry pi elements. I was originally working with a RHT03 Humidity and Temperature Sensor. I was wiring it according to this tutorial: https://pimylifeup.com/raspberry-pi-humidity-sensor-dht22/ However, despite extensive trial and error, I was not sucessful. I have since pivoted to working with the Grover Temperature and Humidity sensor. For these methods, I am following this tutorial: https://wiki.seeedstudio.com/Grove-Temperature_Sensor_V1.2/ Connecting this sensor was a success and I am essentially finished wiring it. Thus my construction milestone has been achieved. <br>
+
+<b>Current Issues:</b> As I try to move onto the next steps of coding, I am currently dealing with an issue where my comptuer fails to connect to the raspberry pi over ssh. This might be an error with the SD card holder coming loose. Despite trial and error with this, I have not been able to resolve this error making it hard to move forward with my project. <br>
+
+<b>Next Steps:</b> My next steps moving forward, I must first be able to connect my computer to the raspberry pi. Once this is complete I can following the recommended steps in the tutorial from above. This will allow me to collect the temperature data over time. After that is complete, I can work on properly storing this information. <br>
