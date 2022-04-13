@@ -616,3 +616,7 @@ See also: Adafruit RPi 11 - ds18b20 Temperature Sensing  <br>
 <b>Current Issues:</b> As I try to move onto the next steps of coding, I am currently dealing with an issue where my comptuer fails to connect to the raspberry pi over ssh. This might be an error with the SD card holder coming loose. Despite trial and error with this, I have not been able to resolve this error making it hard to move forward with my project. <br>
 
 <b>Next Steps:</b> My next steps moving forward, I must first be able to connect my computer to the raspberry pi. Once this is complete I can following the recommended steps in the tutorial from above. This will allow me to collect the temperature data over time. After that is complete, I can work on properly storing this information. <br>
+
+Questions: I am first wondering if anyone has had issues with the SD port before and how I might fix that? Or if there might be another reason all together that I can not connect to my raspberry pi? Have others had problems with this before?
+<br>
+
