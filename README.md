@@ -620,3 +620,16 @@ See also: Adafruit RPi 11 - ds18b20 Temperature Sensing  <br>
 Questions: I am first wondering if anyone has had issues with the SD port before and how I might fix that? Or if there might be another reason all together that I can not connect to my raspberry pi? Have others had problems with this before?
 <br>
 
+## Week 13
+### MILESTONE 3
+
+<b>Overview:</b> 
+<img width="1128" alt="Screen Shot 2022-04-23 at 12 45 40 PM" src="https://user-images.githubusercontent.com/59931466/164915534-8f865a3c-f944-4cb8-8fbc-868cc2277b48.png">
+
+<img width="1092" alt="Screen Shot 2022-04-23 at 12 45 32 PM" src="https://user-images.githubusercontent.com/59931466/164915537-53674da1-98af-4fab-9caa-4d955962ad7c.png">
+
+<b>Current Issues:</b> 
+
+<b>Next Steps:</b> 
+
+<b>Questions:</b>
