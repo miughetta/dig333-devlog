@@ -623,12 +623,12 @@ Questions: I am first wondering if anyone has had issues with the SD port before
 ## Week 13
 ### MILESTONE 3
 
-<b>Overview:</b> 
-<img width="1128" alt="Screen Shot 2022-04-23 at 12 45 40 PM" src="https://user-images.githubusercontent.com/59931466/164915534-8f865a3c-f944-4cb8-8fbc-868cc2277b48.png">
+<b>Overview:</b> Last time, I was having issues with my raspberry pi in general, with the SD card slot coming loose while trying to add the Grove Pi pieces. I have thus pivoted to working with a different Raspberry Pi. The one complication is that I need to work directly on the lab computer to use the ethernet, but I have had sucess connecting to the demopi3, which is what I need to be able to do. I also now have the GrovePi pieces connected successfully and the temperature sensor plugged in accordingly (see photo below).<br>
+<img width="1128" alt="Screen Shot 2022-04-23 at 12 45 40 PM" src="https://user-images.githubusercontent.com/59931466/164915534-8f865a3c-f944-4cb8-8fbc-868cc2277b48.png"><br>
+I have now been investigating the code to accompany this device and access the temeprature sesnor.
 
+<b>Current Issues:</b>
 <img width="1092" alt="Screen Shot 2022-04-23 at 12 45 32 PM" src="https://user-images.githubusercontent.com/59931466/164915537-53674da1-98af-4fab-9caa-4d955962ad7c.png">
-
-<b>Current Issues:</b> 
 
 <b>Next Steps:</b> 
 
