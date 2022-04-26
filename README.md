@@ -625,10 +625,19 @@ Questions: I am first wondering if anyone has had issues with the SD port before
 
 <b>Overview:</b> Last time, I was having issues with my raspberry pi in general, with the SD card slot coming loose while trying to add the Grove Pi pieces. I have thus pivoted to working with a different Raspberry Pi. The one complication is that I need to work directly on the lab computer to use the ethernet, but I have had success connecting to the demopi3, which is what I need to be able to do. I have completed the building aspects of my project, as the GrovePi pieces are connected successfully to my raspberry pi. The temperature/Humdity sensor is plugged in as needed (see photo below).<br>
 <img width="1128" alt="Screen Shot 2022-04-23 at 12 45 40 PM" src="https://user-images.githubusercontent.com/59931466/164915534-8f865a3c-f944-4cb8-8fbc-868cc2277b48.png"><br>
-I have also been investigating the code to accompany this device and access the temeprature sesnor.
-<b>Current Issues:</b>
-<img width="1092" alt="Screen Shot 2022-04-23 at 12 45 32 PM" src="https://user-images.githubusercontent.com/59931466/164915537-53674da1-98af-4fab-9caa-4d955962ad7c.png">
+I have also been investigating the code to accompany this device and access the temeprature sesnor. Originally I had issues working with these code as the default was to work with analog. The resistance readings were thus causing an error in the math and undefined numbers to be calculated (see photo below). <br>
+<img width="1092" alt="Screen Shot 2022-04-23 at 12 45 32 PM" src="https://user-images.githubusercontent.com/59931466/164915537-53674da1-98af-4fab-9caa-4d955962ad7c.png"> <br>
+However, I was able to change the part of the code that gets the readings the following line: <br>
+[temp,humidity] = grovepi.dht(sensor,blue)  <br>
+This was a success and I am now able to take temperature and humdity readings. Originally, I was getting some zero readings, and repeated readings, this was fixed with some deletion of over calling the function. <br>
+<img width="1225" alt="Screen Shot 2022-04-26 at 11 47 12 AM" src="https://user-images.githubusercontent.com/59931466/165340439-feb3b24e-dcbc-4cf5-bae0-055e31ef37ad.png"> <br>
+These readings seemed accurate, and flucuated when the device was breathed on. In general, I have thus finished the physical/building aspects of my project. <br>
 
-<b>Next Steps:</b> 
+<i> The following links were helpful with the above work: </i><br>
+https://github.com/DexterInd/GrovePi/blob/master/Software/Python/grovepi.py <br>
+https://forum.dexterindustries.com/t/solved-dht-sensor-responding-1/2815/2 <br>
+https://docs.google.com/presentation/d/1y-Ys5GJlCfmQzIV5xOyJjVObbGBO85akXeLTyZYAkjk/edit#slide=id.g118713b137d_0_418 <br>
 
-<b>Questions:</b>
+<b>Next Steps:</b> Moving forward, I will have to store these numbers in a way that I can access them in the way that I need them. Once I have this database of sorts, I can publish these results on a digital format. I am simultanously working on what I want this digital format to look like and how it will work. <br>
+
+<b>Questions:</b> I am currently wondering what the easiest way to save/store/access my temeprature values would be for my project? Also, what is teh easiest way to display this information? 
