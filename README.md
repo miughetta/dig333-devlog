@@ -696,6 +696,7 @@ Note: This code is what is collecting the GrovePi sensor readings. A lot of othe
 
 #### Web Interface:
 
-<a href = "http://10.139.116.7/">Link to Final Project Web Interface</a>
+<a href = "http://10.139.116.7/">Link to Final Project Web Interface</a> <br>
 
-
+Example Display of Web Interface: <br>
+<img width="1633" alt="Screen Shot 2022-05-07 at 11 48 05 AM" src="https://user-images.githubusercontent.com/59931466/167261763-f493e1d8-bb50-49c8-a181-7232dd9d9fd7.png"> <br>
