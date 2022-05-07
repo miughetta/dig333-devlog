@@ -1,7 +1,8 @@
 
 # dig333-devlog
 
-#### Weeks: [1](#week-1) [2](#week-2) [3](#week-3) [4](#week-4) [5](#week-5) [6](#week-6) [7](#week-7) [8](#week-8) [Milestone 2](#Milestone-2) [Milestone 3](#Milestone-3) [Final](#Final)
+#### Weeks: [1](#week-1) [2](#week-2) [3](#week-3) [4](#week-4) [5](#week-5) [6](#week-6) [7](#week-7) [8](#week-8) 
+#### Final Project: [Milestone 1](#Milestone-1) [Milestone 2](#Milestone-2) [Milestone 3](#Milestone-3) [Final Deliverables](#Final-Deliverables)
 
 <!--
 BELOW IS A WEEKLY TEMPLATE. COPY/PASTE IT TO ADD A WEEK. SEE ASSIGNMENTS FOR DETAILS 
@@ -538,7 +539,7 @@ This chapter taught us mostlky about GPIO and its application with the raspberry
 
 
 ## Week 8
-### Milestone 1
+### Context
 
 For my final project and for my first milestone, I have begun figuring out the hardware. I have attached the RHT03 Humidity and Temperature Sensor to the bread board. I am working on attaching the BMP085 Barometric Pressure Sensor. Questions revolve around if the wiring is correct and how to continue with the programming. 
 
@@ -608,6 +609,12 @@ See also: Adafruit RPi 11 - ds18b20 Temperature Sensing  <br>
 12.12. Logging to a USB Flash Drive <br>
 - Log data measured from any of these sensors on a USB Flash Drive<br>
 
+## Milestone 1
+
+<br>Proposal:</b> <a href = "https://docs.google.com/presentation/d/1TujVObYuhyTQOjmMqiha4iHu0eQqJFxNu-qXhUJN70U/edit?usp=sharing"> https://docs.google.com/presentation/d/1TujVObYuhyTQOjmMqiha4iHu0eQqJFxNu-qXhUJN70U/edit?usp=sharing </a> <br>
+
+<br>Progress:</b> For my final project and for my first milestone, I have begun figuring out the hardware. I have attached the RHT03 Humidity and Temperature Sensor to the bread board. I am working on attaching the BMP085 Barometric Pressure Sensor. Questions revolve around if the wiring is correct and how to continue with the programming. 
+
 ## MILESTONE 2 
 
 <b>Overview:</b> For my project, I have spent most of my time working on building the raspberry pi elements. I was originally working with a RHT03 Humidity and Temperature Sensor. I was wiring it according to this tutorial: https://pimylifeup.com/raspberry-pi-humidity-sensor-dht22/ However, despite extensive trial and error, I was not sucessful. I have since pivoted to working with the Grover Temperature and Humidity sensor. For these methods, I am following this tutorial: https://wiki.seeedstudio.com/Grove-Temperature_Sensor_V1.2/ Connecting this sensor was a success and I am essentially finished wiring it. Thus my construction milestone has been achieved. <br>
@@ -640,4 +647,19 @@ https://docs.google.com/presentation/d/1y-Ys5GJlCfmQzIV5xOyJjVObbGBO85akXeLTyZYA
 
 <b>Questions:</b> I am currently wondering what the easiest way to save/store/access my temeprature values would be for my project? Also, what is teh easiest way to display this information? 
 
-## Final
+## Final Deliverables
+### Creator's Statement
+
+#### Overview:
+This project, which I have titled “Local Weather Report,” measures and documents the temperature of the Davidson College VAC computer lab every hour. When the user opens this project’s webpage, they are randomly given a temperature taken from this room within the last 24 hours. In general, the goal of this project was to create something both useful and useless in order to explore the duality of modern tech. On one hand, this project is useful because it is documenting and reporting conditions of a space that we as students use often. For example, I might want to check before walking to the VAC if I need a sweater inside the building for my comfort levels. I would be able to do this from anywhere on campus using this web interface. On the other hand, this information on screen could be useless to the user as the temperature displayed could be from anytime within the last 24 hours. If I hope to find a temperature from recently, I would have to hope that refreshing the page would do so and that the given measurement had not changed drastically since the displayed measurement had been taken. 
+
+#### Technological Components:
+The tech that comprises this project can be broken into four parts: the physical raspberry pi, the back-end code, the front-end code, and the elements that make the final product accessible to others. The physical aspects of my project are the raspberry pi zero and the attached GrovePi. This GrovePi is also connected to a DHT11 sensor, which measures the temperature (Celcius) and humidity (%) of the surrounding air. My back-end code, which is written in python, works with these physical elements in order to access the sensor’s temperature readings when necessary. More specifically, when called this code determines the temperature, converts it to Fahrenheit, and stores it in a csv file labeled “data”. The way that the values are stored is as follows: the code takes the elements from the csv file, converts them into a list, replaces the old temperature from 24 hours ago with the current temperature, and overwrites the file with the contents of this new list. The front-end code of this webpage, which is written in HTML, CSS, and Javascript, make up the visual elements of the user experience. HTML and CSS create the structure of my page and stylize it respectively. The Javascript code accesses the data.csv file, randomly selects a time within the past 24 hours, and displays the corresponding information stored. In order to make this web interface accessible across devices, this project was pushed to the address http://10.139.116.7/ using the HTTP server Apache. It is important to note that the user must be on the DavidsonDevice wifi in order to access this web page since that is what my project’s raspberry pi is connected to. Crontab then runs the python script every hour in order to update the stored data for the web page.
+
+#### Goals:
+Beyond the prompt given for this assignment, my main personal goal of this project was to gain a greater understanding of utilizing the physical raspberry pi and its sensors. Before this course, I had spent very little time with physical engineering projects, and thus I wished to expand my knowledge in this regard. Because of my inexperience, it took me several attempts, wiring multiple types of sensors to my raspberry pi until I was able to extract the data I wanted with the GrovePi. However, it was a rewarding experience to be able to do so. My second goal with this project was to output my data on a web interface, utilizing both python and javascript to achieve this. This goal was decided because of the enjoyment I gain from web development. I hoped to complete a project that would both expand my understanding of physical computing but also be fun. 
+
+#### Further Considerations:
+Future considerations of this project include adding additional sensors and reformatting the web interface. Beyond just temperature, this project could collect and report on data such as humidity, barometric pressure, and wind, which all have sensors that could be connected to the raspberry pi. This data could also be formatted in a  more professional way. The current simple screen works for its present purposes, but if more data was added, a more strategically organized webpage would be needed. Visual components could also help create a more accessible viewing experience, with graphs or symbols accompanying the numbers. In general, I think this project achieves what it set out to do. This Local Weather Report is both a useful and useless display of information using raspberry pi sensors and a web interface to inform others.
+
+### Documentation
