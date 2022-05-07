@@ -1,7 +1,7 @@
 
 # dig333-devlog
 
-#### Weeks: [1](#week-1) [2](#week-2) [3](#week-3) [4](#week-4) [5](#week-5) [6](#week-6) [7](#week-7) [8](#week-8) [11](#week-11) [13](#week-13) [15](#week-15)
+#### Weeks: [1](#week-1) [2](#week-2) [3](#week-3) [4](#week-4) [5](#week-5) [6](#week-6) [7](#week-7) [8](#week-8) [Milestone 2](#Milestone-2) [Milestone 3](#Milestone-3) [Final](#Final)
 
 <!--
 BELOW IS A WEEKLY TEMPLATE. COPY/PASTE IT TO ADD A WEEK. SEE ASSIGNMENTS FOR DETAILS 
@@ -538,7 +538,7 @@ This chapter taught us mostlky about GPIO and its application with the raspberry
 
 
 ## Week 8
-### Context
+### Milestone 1
 
 For my final project and for my first milestone, I have begun figuring out the hardware. I have attached the RHT03 Humidity and Temperature Sensor to the bread board. I am working on attaching the BMP085 Barometric Pressure Sensor. Questions revolve around if the wiring is correct and how to continue with the programming. 
 
@@ -608,8 +608,7 @@ See also: Adafruit RPi 11 - ds18b20 Temperature Sensing  <br>
 12.12. Logging to a USB Flash Drive <br>
 - Log data measured from any of these sensors on a USB Flash Drive<br>
 
-## Week 11
-### MILESTONE 2 
+## MILESTONE 2 
 
 <b>Overview:</b> For my project, I have spent most of my time working on building the raspberry pi elements. I was originally working with a RHT03 Humidity and Temperature Sensor. I was wiring it according to this tutorial: https://pimylifeup.com/raspberry-pi-humidity-sensor-dht22/ However, despite extensive trial and error, I was not sucessful. I have since pivoted to working with the Grover Temperature and Humidity sensor. For these methods, I am following this tutorial: https://wiki.seeedstudio.com/Grove-Temperature_Sensor_V1.2/ Connecting this sensor was a success and I am essentially finished wiring it. Thus my construction milestone has been achieved. <br>
 
@@ -620,8 +619,7 @@ See also: Adafruit RPi 11 - ds18b20 Temperature Sensing  <br>
 Questions: I am first wondering if anyone has had issues with the SD port before and how I might fix that? Or if there might be another reason all together that I can not connect to my raspberry pi? Have others had problems with this before?
 <br>
 
-## Week 13
-### MILESTONE 3
+## MILESTONE 3
 
 <b>Overview:</b> Last time, I was having issues with my raspberry pi in general, with the SD card slot coming loose while trying to add the Grove Pi pieces. I have thus pivoted to working with a different Raspberry Pi. The one complication is that I need to work directly on the lab computer to use the ethernet, but I have had success connecting to the demopi3, which is what I need to be able to do. I have completed the building aspects of my project, as the GrovePi pieces are connected successfully to my raspberry pi. The temperature/Humdity sensor is plugged in as needed (see photo below).<br>
 <img width="1128" alt="Screen Shot 2022-04-23 at 12 45 40 PM" src="https://user-images.githubusercontent.com/59931466/164915534-8f865a3c-f944-4cb8-8fbc-868cc2277b48.png"><br>
@@ -641,3 +639,5 @@ https://docs.google.com/presentation/d/1y-Ys5GJlCfmQzIV5xOyJjVObbGBO85akXeLTyZYA
 <b>Next Steps:</b> Moving forward, I will have to store these numbers in a way that I can access them in the way that I need them. Once I have this database of sorts, I can publish these results on a digital format. I am simultanously working on what I want this digital format to look like and how it will work. <br>
 
 <b>Questions:</b> I am currently wondering what the easiest way to save/store/access my temeprature values would be for my project? Also, what is teh easiest way to display this information? 
+
+## Final
