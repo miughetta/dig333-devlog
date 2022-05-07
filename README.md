@@ -668,13 +668,33 @@ Future considerations of this project include adding additional sensors and refo
 <li>SD Card</li>
 <li>GrovePi</li>
 <li>DHT11 sensor</li>
-<li>Ethernet Connection</li>
-![thumbnail_IMG_2665](https://user-images.githubusercontent.com/59931466/167261243-15447a07-591a-4e9c-9e01-a430924dcd00.jpg)
+<li>Ethernet Cable</li>
+These elements can all be seen in the image below:
+<img width="776" alt="Screen Shot 2022-05-07 at 11 35 49 AM" src="https://user-images.githubusercontent.com/59931466/167261276-f9f00257-b70f-42d0-934a-49bbc69fd058.png">
 
 #### Code:
+This project utilizes 2 main pieces of code: a mix of HTML/CSS/Javascript that make up the front-end and python that makes up the back-end. In addition to adding the most important files of code to this github, screen shots of the code are shown below:
+
+##### Front-End Code: index.html
+CSS: <br>
+<img width="1861" alt="Screen Shot 2022-05-07 at 11 30 10 AM" src="https://user-images.githubusercontent.com/59931466/167261395-1fda22c5-60e3-46ef-9020-1898166f2d96.png"> <br>
+
+Javascript: <br>
+<img width="1808" alt="Screen Shot 2022-05-07 at 11 30 22 AM" src="https://user-images.githubusercontent.com/59931466/167261413-fc97a07f-ee52-4912-aa47-32f33f2369ac.png"> <br>
+
+HTML: <br>
+<img width="1853" alt="Screen Shot 2022-05-07 at 11 30 45 AM" src="https://user-images.githubusercontent.com/59931466/167261418-e14836c7-3963-4381-9f8f-f697d026f991.png">
+<img width="1832" alt="Screen Shot 2022-05-07 at 11 30 57 AM" src="https://user-images.githubusercontent.com/59931466/167261425-c10e146e-69d8-43aa-a740-0312418f1023.png"> <br>
+
+##### Back-End Code
+grove_temperature_sensor.py <br>
+<img width="1342" alt="Screen Shot 2022-05-07 at 11 41 29 AM" src="https://user-images.githubusercontent.com/59931466/167261544-16f3affc-9780-4dc2-ba28-7291a28bb41f.png"> <br>
+
+grovepi.py <br>
+<img width="1130" alt="Screen Shot 2022-05-07 at 11 43 26 AM" src="https://user-images.githubusercontent.com/59931466/167261588-14c612de-f6a1-4dd7-a270-c6a3683e0a46.png"> <br>
+Note: This code is what is collecting the GrovePi sensor readings. A lot of other code is in this file, but only this section is what we explicitly used.
 
 #### Web Interface:
-
 
 <a href = "http://10.139.116.7/">Link to Final Project Web Interface</a>
 
