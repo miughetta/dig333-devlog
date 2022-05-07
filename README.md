@@ -674,6 +674,7 @@ These elements can all be seen in the image below:
 #### Other Technical Pieces:
 Other pieces of technology that contributed to this project were as follows:
 <li>CyberDuck: used to access, edit, and move files on the Raspberry Pi easily</li>
+<li>Visual Studio Code: to edit code directly on the computer lab computer</li>
 <li>Terminal: used to establish a connection with the Raspberry Pi in order to run code</li>
 <li>Apache: to make a HTTP server to display this project</li>
 <li>Crontab: to run update this project every hour</li>
