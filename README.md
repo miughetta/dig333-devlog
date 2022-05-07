@@ -663,6 +663,18 @@ Beyond the prompt given for this assignment, my main personal goal of this proje
 Future considerations of this project include adding additional sensors and reformatting the web interface. Beyond just temperature, this project could collect and report on data such as humidity, barometric pressure, and wind, which all have sensors that could be connected to the raspberry pi. This data could also be formatted in a  more professional way. The current simple screen works for its present purposes, but if more data was added, a more strategically organized webpage would be needed. Visual components could also help create a more accessible viewing experience, with graphs or symbols accompanying the numbers. In general, I think this project achieves what it set out to do. This Local Weather Report is both a useful and useless display of information using raspberry pi sensors and a web interface to inform others.
 
 ### Documentation
+#### Physical Materials:
+<li>Raspberry Pi Zero</li>
+<li>SD Card</li>
+<li>GrovePi</li>
+<li>DHT11 sensor</li>
+<li>Ethernet Connection</li>
+![thumbnail_IMG_2665](https://user-images.githubusercontent.com/59931466/167261243-15447a07-591a-4e9c-9e01-a430924dcd00.jpg)
+
+#### Code:
+
+#### Web Interface:
+
 
 <a href = "http://10.139.116.7/">Link to Final Project Web Interface</a>
 
