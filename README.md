@@ -670,7 +670,8 @@ Future considerations of this project include adding additional sensors and refo
 <li>DHT11 sensor</li>
 <li>Ethernet Cable</li>
 These elements can all be seen in the image below:
-<img width="776" alt="Screen Shot 2022-05-07 at 11 35 49 AM" src="https://user-images.githubusercontent.com/59931466/167261276-f9f00257-b70f-42d0-934a-49bbc69fd058.png">
+<img width="776" alt="Screen Shot 2022-05-07 at 11 35 49 AM" src="https://user-images.githubusercontent.com/59931466/167261276-f9f00257-b70f-42d0-934a-49bbc69fd058.png"> <br>
+
 #### Other Technical Pieces:
 Other pieces of technology that contributed to this project were as follows:
 <li>CyberDuck: used to access, edit, and move files on the Raspberry Pi easily</li>
