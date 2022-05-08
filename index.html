@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Local Weather Report</title>
+  <style>
+    * {
+      font-family: Arial;
+    }
+
+    body {
+      background-color: white;
+      border: 10px solid #eaebfe;
+      padding: 10px;
+    }
+
+    h1 {
+      color: #b0b8ce;
+    }
+
+    h2 {
+      color: #505a74;
+    }
+
+    h3 {
+      color: #354c7c;
+    }
+
+    p {
+      color: #022954;
+    }
+
+    .section {
+      /* background-color: white; */
+      padding: 10px;
+    }
+  </style>
+</head>
+<script>
+  //declare varibles
+  var randomTime;
+
+  //function to pick a random integer between 0 and a choosen max; including 0 and the max
+  function randomIntFromInterval(max) {
+    return Math.floor(Math.random() * (max))
+  }
+
+  //function to change the values on the screen
+  function connectSensors() {
+    //accesses the csv file
+    fetch('http://10.139.116.7/data.csv?r=' + Math.random())
+      .then(response => response.text())
+      .then(text => {
+        var data = text.split("\n");
+
+        //accesses current hour est
+        var hour = new Date().getHours();
+
+        //picks a random hour to display
+        randomTime = randomIntFromInterval(24);
+
+        //figures out how many hours ago random hour is from current hour
+        if (hour - randomTime < 0) {
+          var hoursAgo = (24 - randomTime) + hour;
+        } else {
+          var hoursAgo = hour - randomTime;
+        }
+
+        //displays data on website
+        document.getElementById("hoursAgo").innerHTML = hoursAgo;
+        document.getElementById("dataLabel").innerHTML = data[randomTime] + " F";
+        console.log("current hour " + hour + " time we are checking " + randomTime + " hours ago " + (hour - randomTime));
+      })
+  }
+</script>
+
+<body onload="connectSensors()">
+  <div id="allSections">
+    <h1 class="section">Local Temperature Data</h1>
+    <h2 class="section">As of <span id="hoursAgo">X</span> hours ago ...</h2>
+    <h3 class="section" id="dataLabel"> X </h3>
+    <div class="section">
+      <h4>Creator Statement:</h4>
+      <h5>Overview:</h5>
+      <p>
+        This project, which I have titled “Local Weather Report,” measures and documents the temperature of the Davidson
+        College VAC computer lab every hour. When the user opens this project’s webpage, they are randomly given a
+        temperature taken from this room within the last 24 hours. In general, the goal of this project was to create
+        something both useful and useless in order to explore the duality of modern tech. On one hand, this project is
+        useful because it is documenting and reporting conditions of a space that we as students use often. For example,
+        I might want to check before walking to the VAC if I need a sweater inside the building for my comfort levels. I
+        would be able to do this from anywhere on campus using this web interface. On the other hand, this information
+        on screen could be useless to the user as the temperature displayed could be from anytime within the last 24
+        hours. If I hope to find a temperature from recently, I would have to hope that refreshing the page would do so
+        and that the given measurement had not changed drastically since the displayed measurement had been taken.
+      </p>
+
+      <h5>Technological Components:</h5>
+      <p>
+        The tech that comprises this project can be broken into four parts: the physical Raspberry Pi, the back-end
+        code, the front-end code, and the elements that make the final product accessible to others. The physical
+        aspects of my project are the Raspberry Pi Zero and the attached GrovePi. This GrovePi is also connected to a
+        DHT11 sensor, which measures the temperature (Celcius) and humidity (%) of the surrounding air. My back-end
+        code, which is written in python, works with these physical elements in order to access the sensor’s temperature
+        readings when necessary. More specifically, when called this code determines the temperature, converts it to
+        Fahrenheit, and stores it in a csv file labeled “data”. The way that the values are stored is as follows: the
+        code takes the elements from the csv file, converts them into a list, replaces the old temperature from 24 hours
+        ago with the current temperature, and overwrites the file with the contents of this new list. The front-end code
+        of this webpage, which is written in HTML, CSS, and Javascript, make up the visual elements of the user
+        experience. HTML and CSS create the structure of my page and stylize it respectively. The Javascript code
+        accesses the data.csv file, randomly selects a time within the past 24 hours, and displays the corresponding
+        information stored. In order to make this web interface accessible across devices, this project was pushed to
+        the address http://10.139.116.7/ using the HTTP server Apache. It is important to note that the user must be on
+        the DavidsonDevice wifi in order to access this web page since that is what my project’s Raspberry Pi is
+        connected to. Crontab then runs the python script every hour in order to update the stored data for the web
+        page.
+      </p>
+
+      <h5>Goals:</h5>
+      <p>
+        Beyond the prompt given for this assignment, my main personal goal of this project was to gain a greater
+        understanding of utilizing the physical Raspberry Pi and its sensors. Before this course, I had spent very
+        little time with physical engineering projects, and thus I wished to expand my knowledge in this regard. Because
+        of my inexperience, it took me several attempts, wiring multiple types of sensors to my Raspberry Pi until I was
+        able to extract the data I wanted with the GrovePi. However, it was a rewarding experience to be able to do so.
+        My second goal with this project was to output my data on a web interface, utilizing both python and javascript
+        to achieve this. This goal was decided because of the enjoyment I gain from web development. I hoped to complete
+        a project that would both expand my understanding of physical computing but also be fun.
+      </p>
+
+      <h5>Further Considerations:</h5>
+      <p>
+        Future considerations of this project include adding additional sensors and reformatting the web interface.
+        Beyond just temperature, this project could collect and report on data such as humidity, barometric pressure,
+        and wind, which all have sensors that could be connected to the Raspberry Pi. This data could also be formatted
+        in a more professional way. The current simple screen works for its present purposes, but if more data was
+        added, a more strategically organized webpage would be needed. Visual components could also help create a more
+        accessible viewing experience, with graphs or symbols accompanying the numbers. In general, I think this project
+        achieves what it set out to do. This Local Weather Report is both a useful and useless display of information
+        using Raspberry Pi sensors and a web interface to inform others.
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
