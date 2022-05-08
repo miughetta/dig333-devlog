@@ -708,3 +708,6 @@ Note: This code is what is collecting the GrovePi sensor readings. A lot of othe
 
 Example Display of Web Interface: <br>
 <img width="1633" alt="Screen Shot 2022-05-07 at 11 48 05 AM" src="https://user-images.githubusercontent.com/59931466/167261763-f493e1d8-bb50-49c8-a181-7232dd9d9fd7.png"> <br>
+
+Example Video of Web Interface Updating:
+https://user-images.githubusercontent.com/59931466/167308993-13b557f7-5b23-4e79-a5b6-51c6dbad4c58.mov
